@@ -18,7 +18,7 @@ def get_mistral_answer(prompt, role=""):
     encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt")
     model_inputs = encodeds.to(device)
     model.to(device)
-    generated_ids = model.generate(model_inputs, max_new_tokens=1500, num_beams=5)
+    generated_ids = model.generate(model_inputs, max_new_tokens=1024, top_p=0.9)
     assistant_message = tokenizer.batch_decode(generated_ids)[0]
     return assistant_message.split("[/INST]")[1].strip().split("</s>")[0]
 

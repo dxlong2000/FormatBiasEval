@@ -16,12 +16,12 @@ client = OpenAI(api_key = key)
 
 def get_chatgpt_answer(input_prompt, role="You are helpful assistant!", n=1):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo-1106",
+        model="gpt-3.5-turbo-0125",
         messages=[
             {"role": "system", "content": role},
             {"role": "user", "content": input_prompt},
         ],
-        max_tokens=1500,
+        max_tokens=1025,
         top_p=1,
         n=n,
         frequency_penalty=0,
