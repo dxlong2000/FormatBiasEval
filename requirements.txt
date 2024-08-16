@@ -6,3 +6,4 @@ tqdm
 pandas
 rouge-score
 PyYAML
+vllm
