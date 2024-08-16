@@ -1,0 +1,8 @@
+torch
+transformers
+openai
+evaluate
+tqdm
+pandas
+rouge-score
+PyYAML

@@ -1,0 +1,962 @@
+doc_id,document,top_k,category,input_data,answer,python_output,yaml_output
+02567fd428a675ca91a0c6786f47f3e35881bcbd,document : Deep Label Distribution Learning With Label Ambiguity,1,"['Task', 'Method']",document : Deep Label Distribution Learning With Label Ambiguity,{'Task': ['Label Ambiguity']},"I'm unable to directly process the document you've provided as it's just a string containing the title of a research paper. To extract entities reflecting tasks from this document, we would typically use Natural Language Processing (NLP) techniques, such as Named Entity Recognition (NER), on the actual text of the document.
+
+However, based on the title alone, we can infer some potential tasks mentioned:
+
+1. Deep Label Distribution Learning
+2. Label Ambiguity
+
+Here's the Python dictionary representation:
+
+```python
+{'task': ['Deep Label Distribution Learning', 'Label Ambiguity']}
+```","tasks:
+- name: Deep Label Distribution Learning
+  description: The main task discussed in the document is ""Deep Label Distribution Learning"".
+
+- name: Label Ambiguity
+  description: A challenge mentioned in the document is ""Label Ambiguity"".
+
+tasks:
+- name: Deep Learning
+  description: A technique used in the task is ""Deep Learning"".
+
+- name: Label Distribution Learning
+  description: A specific type of task within the main task is ""Label Distribution Learning"".
+
+- name: Label Ambiguity Handling
+  description: A sub-task within the main task is ""Label Ambiguity Handling""."
+02b3d1d162080d9aefd3fc30a0bcc9a843073b5d,"In this work we explore recent advances in Recurrent Neural Networks for large scale Language Modeling , a task central to language understanding .",1,"['Task', 'Method']","In this work we explore recent advances in Recurrent Neural Networks for large scale Language Modeling , a task central to language understanding .","{'Task': ['language understanding', 'Language Modeling']}","{'task': ['large scale Language Modeling', 'language understanding']}","```yaml
+tasks:
+  - language_modeling
+  - large_scale_language_modeling
+  - language_understanding
+```"
+0398552184f80db111e9c28bf533b395f233ac00,Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self - paced Curriculum Learning,1,"['Task', 'Method']",Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self - paced Curriculum Learning,"{'Task': ['Weakly Supervised Object Detection', 'Bridging Saliency Detection']}","{'task': ['Bridging Saliency Detection', 'Weakly Supervised Object Detection', 'Self-paced Curriculum Learning']}","task:
+  - name: ""Bridging Saliency Detection and Weakly Supervised Object Detection""
+  - technique: ""Self-paced Curriculum Learning"""
+05d2700846c0323f79c1344aca5333994c7c03a5,document : The IBM 2016 English Conversational Telephone Speech Recognition System,1,"['Task', 'Method']",document : The IBM 2016 English Conversational Telephone Speech Recognition System,{'Task': ['IBM 2016 English Conversational Telephone Speech Recognition System']},"Based on the given document, there is no explicit mention of tasks or task names. Therefore, an empty list will be returned as the value for the 'task' key in the dictionary.
+
+{'task': []}","task:
+  - developing:
+      organization: IBM
+      year: 2016
+      product: English Conversational Telephone Speech Recognition System"
+0626908dd710b91aece1a81f4ca0635f23fc47f3,document : Rethinking the Inception Architecture for Computer Vision,1,"['Task', 'Method']",document : Rethinking the Inception Architecture for Computer Vision,{'Task': ['Computer Vision']},"I'm an AI language model and I don't have the ability to directly process documents or extract entities from them. However, I can give you an example of how you might extract task entities from your document using Natural Language Processing (NLP) techniques and libraries like spaCy or NLTK.
+
+Here's an example using spaCy:
+
+```python
+import spacy
+
+nlp = spacy.load(""en_core_web_sm"")
+
+document = nlp(""Rethinking the Inception Architecture for Computer Vision"")
+
+task_entities = []
+
+for ent in document.ents:
+    if ent.label_ == ""TASK"":
+        task_entities.append(ent.text)
+
+output = {'task': task_entities}
+
+print(output)
+```
+
+In this example, we first load the English language model from spaCy. We then process the input document using the `nlp` function, which returns a `Doc` object. We iterate through the named entities in the document and check if their label is ""TASK"". If so, we add the text of the entity to our list of task entities. Finally, we create a dictionary with the key ""task"" and the value being our list of task entities, and print the output.
+
+Note that in order for this code to work, you need to have spaCy installed and the English language model downloaded. You can install spaCy using pip:
+
+```bash
+pip install spacy
+```
+
+And download the English language model using the following command:
+
+```bash
+python -m spacy download en_core_web_sm
+```","tasks:
+- name: Rethinking the Inception Architecture
+  type: Research
+
+tasks:
+- name: Computer Vision
+  type: Field
+
+tasks:
+- name: Architecture Design
+  type: Task
+  sub_tasks:
+  - name: Inception Architecture
+    type: Specific Architecture
+  - name: Rethinking
+    type: Action"
+0678a8abea82793993cd89383319da75f6dc4be3,document : ProNet : Learning to Propose Object - specific Boxes for Cascaded Neural Networks,1,"['Task', 'Method']",document : ProNet : Learning to Propose Object - specific Boxes for Cascaded Neural Networks,{'Task': []},"{'task': ['Learning', 'Proposing', 'Object-specific Boxes', 'for', 'Cascaded Neural Networks']}","task:
+  - name: Learning
+  - name: Proposing
+  - name: Object-specific Boxes
+  - name: For Cascaded Neural Networks"
+081531984770a74e87dbd68907061b4b0f3631bf,document : Real - Time Video Super - Resolution with Spatio - Temporal Networks and Motion Compensation,1,"['Task', 'Method']",document : Real - Time Video Super - Resolution with Spatio - Temporal Networks and Motion Compensation,{'Task': ['Real - Time Video Super - Resolution']},"{'task': ['Real-Time Video Super-Resolution', 'Video Super-Resolution with Spatio-Temporal Networks', 'Motion Compensation']}","task:
+  - name: Real-Time Video Super-Resolution
+    type: Image and Video Processing
+  - name: Spatio-Temporal Networks
+    type: Machine Learning Model
+  - name: Motion Compensation
+    type: Image and Video Processing Technique"
+0834e74304b547c9354b6d7da6fa78ef47a48fa8,document : LINE : Large - scale Information Network Embedding,1,"['Task', 'Method']",document : LINE : Large - scale Information Network Embedding,{'Task': []},"Based on the given document, the following entities reflecting the tasks can be identified:
+
+Document: ""document : LINE : Large-scale Information Network Embedding""
+
+{'task': ['Large-scale Information Network Embedding']}","task:
+  - name: Large-scale Information Network Embedding
+    description: Unknown, but can be inferred as the main task mentioned in the document."
+0a3381f0432c5cfe491c718349d7a44e5814592c,document : Compositional Sequence Labeling Models for Error Detection in Learner Writing,1,"['Task', 'Method']",document : Compositional Sequence Labeling Models for Error Detection in Learner Writing,"{'Task': ['Learner Writing', 'Error Detection']}","Based on the given document title, the following tasks can be identified as entities:
+
+{'task': ['Compositional Sequence Labeling', 'Modeling', 'Error Detection', 'in Learner Writing']}","task:
+  - sequence_labeling: Compositional Sequence Labeling Models
+  - error_detection: for Error Detection
+  - learner_writing: in Learner Writing"
+0a6c36de8726b6feaab586046ddc1d1a008f44f9,document : Filtered Channel Features for Pedestrian Detection,1,"['Task', 'Method']",document : Filtered Channel Features for Pedestrian Detection,{'Task': ['Pedestrian Detection']},"Based on the given document, the following entities reflecting the tasks can be identified:
+
+Document: ""Filtered Channel Features for Pedestrian Detection""
+
+{'task': ['Pedestrian Detection', 'Feature Extraction', 'Filtering']}","task:
+  - name: ""Filtered Channel Features for Pedestrian Detection""
+  - sub_tasks:
+    - name: ""Pedestrian Detection""
+    - name: ""Feature Extraction""
+    - name: ""Filtered Channel Selection"""
+0c47cad9729c38d9db1f75491b1ee4bd883a5d4e,document : Semi - Supervised Sequence Modeling with Cross - View Training,1,"['Task', 'Method']",document : Semi - Supervised Sequence Modeling with Cross - View Training,{'Task': []},"Based on the given document title, the following tasks can be identified:
+- Sequence Modeling
+- Semi-Supervised Learning
+- Cross-View Training
+
+Python dictionary output:
+{'task': ['Sequence Modeling', 'Semi-Supervised Learning', 'Cross-View Training']}","task:
+  - name: Sequence Modeling
+    type: Natural Language Processing
+  - name: Semi-Supervised Learning
+    type: Machine Learning
+  - name: Cross-View Training
+    type: Machine Learning Technique"
+0dc9eb7d17f2def56ad930945f2521653f04c3fa,Skip - gram Language Modeling Using Sparse Non - negative Matrix Probability Estimation,1,"['Task', 'Method']",Skip - gram Language Modeling Using Sparse Non - negative Matrix Probability Estimation,{'Task': ['Skip - gram Language Modeling']},"{'task': ['Language Modeling', 'Using', 'Sparse Non-negative Matrix Probability Estimation']}","task:
+  - name: ""Language Modeling""
+  - name: ""Skip-gram Modeling""
+  - name: ""Using Sparse Non-negative Matrix Probability Estimation"""
+107010b7f2abe3c0c9df62bcef35eb77f6fc76df,Domain - Adversarial Training of Neural Networks,1,"['Task', 'Method']",Domain - Adversarial Training of Neural Networks,{'Task': []},"Based on the given document, the following tasks related to Adversarial Training of Neural Networks can be identified:
+
+```python
+{'task': ['Adversarial Training', 'Training of Neural Networks']}
+```","task:
+  - name: Adversarial Training
+    type: Machine Learning Technique
+  - name: Training Neural Networks
+    type: Machine Learning Task
+  - name: Developing Adversarial Training Algorithms
+    type: Research
+  - name: Implementing Adversarial Training
+    type: Software Development
+  - name: Testing Adversarial Training
+    type: Experimentation
+  - name: Evaluating Adversarial Training Performance
+    type: Performance Evaluation"
+1130d8fdd931225c2d7563c3808367726cfa1c3a,document : PixelGAN Autoencoders,1,"['Task', 'Method']",document : PixelGAN Autoencoders,{'Task': []},"Based on the given document, there is only one task mentioned which is ""PixelGAN Autoencoders"". Here is the Python dictionary representation:
+
+```python
+{'task': ['PixelGAN Autoencoders']}
+```","task:
+  - name: PixelGAN Autoencoders
+    description: Unspecified task using PixelGAN Autoencoders.
+
+tasks:
+  - name: Training
+    description: The task of training a PixelGAN Autoencoder model.
+  - name: Encoding
+    description: The task of encoding input data using a PixelGAN Autoencoder.
+  - name: Decoding
+    description: The task of decoding output data from a PixelGAN Autoencoder.
+  - name: Generation
+    description: The task of generating new data using a trained PixelGAN Autoencoder.
+  - name: Reconstruction
+    description: The task of reconstructing input data using a trained PixelGAN Autoencoder."
+11356cd6bb0f2776a88cd584ff108470414c6594,document : Submanifold Sparse Convolutional Networks,1,"['Task', 'Method']",document : Submanifold Sparse Convolutional Networks,{'Task': []},"Based on the given document title, there is one clear task entity that can be identified: ""Designing and implementing Submanifold Sparse Convolutional Networks"".
+
+Python dictionary output:
+{'task': ['Designing and implementing Submanifold Sparse Convolutional Networks']}","task:
+  - name: ""Researching""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Developing""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Designing""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Implementing""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Building""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Training""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Testing""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Evaluating""
+    description: ""Submanifold Sparse Convolutional Networks""
+  - name: ""Optimizing""
+    description: ""Submanifold Sparse Convolutional Networks"""
+11da0c54ba904a1cb31a09d10da55f73e8825c61,document : Natural Language Inference by Tree - Based Convolution and Heuristic Matching,1,"['Task', 'Method']",document : Natural Language Inference by Tree - Based Convolution and Heuristic Matching,{'Task': ['Natural Language Inference']},"Based on the given document title, the following entities reflecting the tasks can be identified:
+
+{'task': ['Natural Language Inference', 'Tree-Based Convolution', 'Heuristic Matching']}","task:
+  - Natural Language Inference
+  - Tree-Based Convolution
+  - Heuristic Matching"
+1235dd37312cb20aced0e97d953f6379d8a0c7d4,document : Grounded Textual Entailment,1,"['Task', 'Method']",document : Grounded Textual Entailment,{'Task': ['Grounded Textual Entailment']},"Based on the given document, there is only one task mentioned which is ""Grounded Textual Entailment"". Here is the Python dictionary representation of the task entity:
+
+```python
+{'task': ['Grounded Textual Entailment']}
+```","task:
+  - name: Grounded Textual Entailment
+  - subtasks:
+    - Textual Entailment
+    - Grounding
+    - Natural Language Processing
+    - Machine Learning
+    - Information Extraction
+    - Semantic Analysis
+    - Knowledge Representation
+    - Reasoning
+    - Database Management
+    - Data Preprocessing
+    - Feature Engineering
+    - Model Training
+    - Performance Evaluation
+    - Result Interpretation"
+14318685b5959b51d0f1e3db34643eb2855dc6d9,document : Going deeper with convolutions,1,"['Task', 'Method']",document : Going deeper with convolutions,{'Task': []},"I'm an AI language model and I don't have the ability to directly process documents or extract entities from them. However, I can give you an example of how you might extract task entities from the given document using Natural Language Processing (NLP) techniques and libraries such as spaCy or NLTK.
+
+Here's an example using spaCy:
+
+```python
+import spacy
+
+nlp = spacy.load(""en_core_web_sm"")
+
+document = nlp(""document : Going deeper with convolutions"")
+
+task_entities = []
+
+for ent in document.ents:
+    if ent.label_ == ""TASK"":
+        task_entities.append(ent.text)
+
+output = {'task': task_entities}
+
+print(output)
+```
+
+In this example, we first load the English language model from spaCy. We then process the document using this model and search for entities with the label ""TASK"". If any such entities are found, they are added to the `task_entities` list, which is then added to the output dictionary as the value for the key ""task"".
+
+Note that in order for this code to work, you need to have spaCy installed and the English language model downloaded. You can install spaCy using pip:
+
+```bash
+pip install spacy
+```
+
+And you can download the English language model using the following command:
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
+I hope this helps! Let me know if you have any questions.","task:
+  - title: ""Going deeper with convolutions""
+  - sub_tasks:
+    - learning_convolutional_neural_networks:
+        - title: ""Learning Convolutional Neural Networks""
+        - description: ""Understanding the basics of Convolutional Neural Networks (CNNs)""
+    - exploring_convolutions:
+        - title: ""Exploring Convolutions""
+        - description: ""Diving deeper into the concept of convolutions in CNNs""
+    - understanding_pooling:
+        - title: ""Understanding Pooling""
+        - description: ""Learning about max pooling and average pooling in CNNs""
+    - convolutional_layers:
+        - title: ""Convolutional Layers""
+        - description: ""Understanding the role and importance of convolutional layers in CNNs""
+    - fully_connected_layers:
+        - title: ""Fully Connected Layers""
+        - description: ""Understanding the role and importance of fully connected layers in CNNs""
+    - training_convolutional_neural_networks:
+        - title: ""Training Convolutional Neural Networks""
+        - description: ""Learning techniques for training CNNs, such as backpropagation and optimization algorithms""
+    - applying_convolutional_neural_networks:
+        - title: ""Applying Convolutional Neural Networks""
+        - description: ""Understanding how to apply CNNs to real-world problems, such as image classification and object detection"""
+16051bbe3a7f7c77a952ebf76722ea655e8906ca,Image Super - resolution via Feature - augmented Random Forest,1,"['Task', 'Method']",Image Super - resolution via Feature - augmented Random Forest,{'Task': ['Image Super - resolution']},"{'task': ['Image Super-resolution', 'Feature augmentation', 'Random Forest']}","tasks:
+- name: Image Super-resolution
+  description: The document describes a task involving image super-resolution.
+
+- name: Feature Augmentation
+  description: The document mentions the use of feature augmentation in the context of image super-resolution.
+
+- name: Random Forest
+  description: The document mentions the use of a Random Forest algorithm for image super-resolution after feature augmentation."
+160563abbd75265b19afc8b4169bab9e1eb33d97,document : Massively Multilingual Sentence Embeddings for Zero - Shot Cross - Lingual Transfer and Beyond,1,"['Task', 'Method']",document : Massively Multilingual Sentence Embeddings for Zero - Shot Cross - Lingual Transfer and Beyond,"{'Task': ['Massively Multilingual Sentence Embeddings', 'Zero - Shot Cross - Lingual Transfer']}","{'task': ['Massively Multilingual Sentence Embeddings', 'Zero-Shot Cross-Lingual Transfer', 'Beyond']}","tasks:
+  - name: ""Massively Multilingual Sentence Embeddings""
+  - name: ""Zero-Shot Cross-Lingual Transfer""
+  - name: ""Beyond"""
+175f74a09241b6cb5101a2a09978095720db7d5f,document : Image Super - Resolution via Dual - State Recurrent Networks,1,"['Task', 'Method']",document : Image Super - Resolution via Dual - State Recurrent Networks,{'Task': ['Image Super - Resolution']},"{'task': ['Image Super-Resolution', 'Dual-State Recurrent Networks']}","task:
+  - name: Image Super-Resolution
+    type: Computer_Vision
+  - name: Dual-State Recurrent Networks
+    type: Machine_Learning
+    sub_task:
+      - name: Network Architecture Design
+        type: Deep_Learning
+      - name: Model Training
+        type: Model_Training
+      - name: Performance Evaluation
+        type: Performance_Evaluation"
+1778e32c18bd611169e64c1805a51abff341ca53,document : Natural Language Inference over Interaction Space,1,"['Task', 'Method']",document : Natural Language Inference over Interaction Space,"{'Task': ['Interaction Space', 'Natural Language Inference']}","Based on the given document title, there is one clear task entity mentioned which is ""Natural Language Inference"". Here is the Python dictionary representation of the task entity:
+
+```python
+{'task': ['Natural Language Inference']}
+```","task:
+  - name: ""Natural Language Inference""
+  - description: ""A task in artificial intelligence and natural language processing that involves determining the relationship between two or more pieces of text.""
+  - type: ""Inference""
+  - sub_tasks:
+    - name: ""Question Answering""
+    - description: ""A sub-task of natural language inference where the goal is to find the answer to a specific question from a given text.""
+    - type: ""Question Answering""
+  - sub_tasks:
+    - name: ""Text Classification""
+    - description: ""A sub-task of natural language inference where the goal is to categorize text into predefined classes based on its content.""
+    - type: ""Text Classification""
+  - sub_tasks:
+    - name: ""Named Entity Recognition""
+    - description: ""A sub-task of natural language processing where the goal is to identify and extract named entities from text.""
+    - type: ""Named Entity Recognition""
+  - sub_tasks:
+    - name: ""Dependency Parsing""
+    - description: ""A sub-task of natural language processing where the goal is to analyze the grammatical structure of a sentence and identify the relationships between words.""
+    - type: ""Dependency Parsing""
+  - sub_tasks:
+    - name: ""Coreference Resolution""
+    - description: ""A sub-task of natural language processing where the goal is to identify which expressions in a text refer to the same entity.""
+    - type: ""Coreference Resolution""
+  - sub_tasks:
+    - name: ""Relation Extraction""
+    - description: ""A sub-task of natural language processing where the goal is to extract relationships between entities from text.""
+    - type: ""Relation Extraction"""
+178275dbdcfa267e41a9d5efe386ee5874c6d23f,document : Fraternal Dropout,1,"['Task', 'Method']",document : Fraternal Dropout,{'Task': []},"I'm an AI language model and I don't have the ability to directly process documents or extract entities from them. However, I can give you an example of how you might extract task entities from the given document using Natural Language Processing (NLP) techniques and libraries such as spaCy or NLTK.
+
+Here's an example using spaCy:
+
+```python
+import spacy
+
+nlp = spacy.load(""en_core_web_sm"")
+
+document = nlp(""document : Fraternal Dropout"")
+
+task_entities = []
+
+for ent in document.ents:
+    if ent.label_ == ""TASK"":
+        task_entities.append(ent.text)
+
+output = {'task': task_entities}
+
+print(output)
+```
+
+In this example, we first load the English language model from spaCy. We then process the document using the `nlp()` function, which returns a `Doc` object. We then iterate through each named entity in the document and check if its label is ""TASK"". If it is, we add its text to the `task_entities` list. Finally, we create a dictionary with the key ""task"" and the value being the list of task entities, and print the output.
+
+Note that in order for this code to work, you need to have spaCy installed and the English language model downloaded. You can install spaCy using pip:
+
+```bash
+pip install spacy
+```
+
+And download the English language model:
+
+```bash
+python -m spacy download en_core_web_sm
+```","task:
+  - title: ""Study on Fraternal Dropout""
+    description: """"
+    type: ""Research""
+  - title: ""Data Collection""
+    description: """"
+    type: ""Data Collection""
+  - title: ""Data Analysis""
+    description: """"
+    type: ""Data Analysis""
+  - title: ""Report Writing""
+    description: """"
+    type: ""Report Writing""
+  - title: ""Presentation Preparation""
+    description: """"
+    type: ""Presentation Preparation""
+  - title: ""Presentation Delivery""
+    description: """"
+    type: ""Presentation Delivery"""
+178631e0f0e624b1607c7a7a2507ed30d4e83a42,document : Speech Recognition with Deep Recurrent Neural Networks,1,"['Task', 'Method']",document : Speech Recognition with Deep Recurrent Neural Networks,{'Task': ['Speech Recognition']},"{'task': ['Speech Recognition', 'Working with Deep Recurrent Neural Networks']}","task:
+  - name: Speech Recognition
+    type: Natural Language Processing
+    sub_tasks:
+      - name: Acoustic Modeling
+        type: Signal Processing
+      - name: Language Modeling
+        type: Natural Language Processing
+      - name: Speech Feature Extraction
+        type: Signal Processing
+      - name: Deep Learning Model Training
+        type: Machine Learning
+      - name: Decoding
+        type: Natural Language Processing"
+18168aea48a22f6fe2fe407c0ff70083cba225a7,document : Image Restoration Using Very Deep Convolutional Encoder - Decoder Networks with Symmetric Skip Connections,1,"['Task', 'Method']",document : Image Restoration Using Very Deep Convolutional Encoder - Decoder Networks with Symmetric Skip Connections,{'Task': ['Image Restoration']},"{'task': ['Image Restoration', 'Deep Learning Model Development', 'Convolutional Encoder-Decoder Networks Design', 'Symmetric Skip Connections Implementation']}","task:
+  - image_restoration
+  - using
+  - very_deep_convolutional_encoder_decoder_networks
+  - with
+  - symmetric_skip_connections"
+193089d56758ab88391d846edd08d359b1f9a863,document : A Discriminatively Learned CNN Embedding for Person Re - identification,1,"['Task', 'Method']",document : A Discriminatively Learned CNN Embedding for Person Re - identification,{'Task': ['Person Re - identification']},"Based on the given document title, the following entities reflecting the tasks can be identified:
+
+{'task': ['Person Re-identification']}","task:
+  - name: Document Analysis
+  - sub_tasks:
+    - name: Topic Identification
+      entities: [""Document: A Discriminatively Learned CNN Embedding for Person Re-identification""]
+    - name: Named Entity Recognition
+      entities: [""Person Re-identification""]
+    - name: Part-of-Speech Tagging
+      entities: [""Document"", ""A"", ""Discriminatively"", ""Learned"", ""CNN"", ""Embedding"", ""for"", ""Person"", ""Re-identification""]
+    - name: Dependency Parsing
+      entities: []
+    - name: Sentiment Analysis
+      entities: []
+    - name: Named Entity Extraction
+      entities: [""Person Re-identification""]"
+193b518bc3025804c6d587c74cbc154d91478417,document : Learning to Adapt Structured Output Space for Semantic Segmentation,1,"['Task', 'Method']",document : Learning to Adapt Structured Output Space for Semantic Segmentation,{'Task': ['Semantic Segmentation']},"Based on the given document title, it can be inferred that the tasks mentioned in the document are related to ""Learning to Adapt Structured Output Space for Semantic Segmentation"". Here is the Python dictionary representation of the task entities:
+
+```python
+{'task': ['Learning to Adapt', 'Structured Output Space', 'Semantic Segmentation']}
+```
+
+So, the output would look like this:
+
+```python
+{'task': ['Learning to Adapt', 'Structured Output Space', 'Semantic Segmentation']}
+```","tasks:
+- name: Learning to Adapt Structured Output Space
+  type: Research
+
+tasks:
+- name: Semantic Segmentation
+  type: Computer Vision Task"
+1d0dcb458aa4d30b51f7c74b159be687f39120a0,document : Pose - driven Deep Convolutional Model for Person Re - identification,1,"['Task', 'Method']",document : Pose - driven Deep Convolutional Model for Person Re - identification,{'Task': ['Person Re - identification']},"Based on the given document title, the following entities reflecting the tasks can be identified:
+
+```python
+{'task': ['Person Re-identification', 'Deep Convolutional Model', 'Pose-driven']}
+```
+
+So the output will be:
+
+```python
+{'task': ['Person Re-identification', 'Deep Convolutional Model', 'Pose-driven']}
+```","task:
+  - name: Person Re-identification
+    type: Object
+    sub_tasks:
+      - name: Deep Convolutional Model
+        type: Method
+      - name: Pose-driven
+        type: Method
+      - name: Model for Person Re-identification
+        type: Object"
+1f08598381af9146d0fd9a61b30d0e51a7331689,document : Distributed Prioritized Experience Replay,1,"['Task', 'Method']",document : Distributed Prioritized Experience Replay,{'Task': ['Distributed Prioritized Experience Replay']},"Based on the given document title ""Distributed Prioritized Experience Replay"", there is no explicit mention of specific tasks. However, I can infer that the document might be related to machine learning or deep learning tasks, specifically related to Experience Replay and Distributed Computing. Here's the Python dictionary representation:
+
+```python
+{'task': ['Experience Replay', 'Distributed Computing']}
+```
+
+Please note that this is an educated guess based on the document title, and the actual tasks might vary depending on the content of the document.","task:
+  - name: Distributed Prioritized Experience Replay
+    description: Unknown
+    type: Research
+    sub_tasks: []"
+2138a7127429d67746ec78de46d6820fee0e548e,document : Graph2Seq : Graph to Sequence Learning with Attention - Based Neural Networks,1,"['Task', 'Method']",document : Graph2Seq : Graph to Sequence Learning with Attention - Based Neural Networks,{'Task': ['Graph to Sequence Learning']},"{'task': ['Graph to Sequence Learning', 'Learning with Attention', 'Neural Networks']}
+
+This dictionary indicates that the tasks mentioned in the document are ""Graph to Sequence Learning"", ""Learning with Attention"", and ""Neural Networks"".","task:
+  - name: Graph to Sequence Learning
+  - name: Using Attention-Based Neural Networks"
+21a1654b856cf0c64e60e58258669b374cb05539,"document : You Only Look Once : Unified , Real - Time Object Detection",1,"['Task', 'Method']","document : You Only Look Once : Unified , Real - Time Object Detection",{'Task': ['Real - Time Object Detection']},"Based on the given document title, the following entities reflecting the tasks can be identified:
+
+```python
+{'task': ['Unified Object Detection', 'Real-Time Object Detection']}
+```
+
+So the output will be:
+
+```python
+{'task': ['Unified Object Detection', 'Real-Time Object Detection']}
+```","task:
+  - name: Object Detection
+    type: task
+  - name: Unified Detection
+    type: subtask
+  - name: Real-Time Detection
+    type: subtask"
+232b43584b2236669c0a53702ad89ab10c3886ea,"In this work , we build on recent advances in distributional reinforcement learning to give a generally applicable , flexible , and state - of - the - art distributional variant of DQN .",1,"['Task', 'Method']","In this work , we build on recent advances in distributional reinforcement learning to give a generally applicable , flexible , and state - of - the - art distributional variant of DQN .",{'Task': []},"Based on the context provided in the document, there is no explicit mention of specific tasks or entities related to tasks. The text discusses the development of a distributional variant of Deep Q-Network (DQN) using distributional reinforce learning. Therefore, the output will be an empty list as there are no task entities identified in the document.
+
+{'task': []}","task:
+  - name: Building on recent advances in distributional reinforce learning
+  - name: Developing a generally applicable distributional variant of DQN
+  - name: Creating a flexible distributional variant of DQN
+  - name: Designing a state-of-the-art distributional variant of DQN (Distributional DQN)"
+23d2d3a6ffebfecaa8930307fdcf451c147757c8,document : SeqGAN : Sequence Generative Adversarial Nets with Policy Gradient,1,"['Task', 'Method']",document : SeqGAN : Sequence Generative Adversarial Nets with Policy Gradient,{'Task': []},"Based on the given document, the following tasks can be identified:
+- Sequence Generation
+- Adversarial Training
+- Policy Gradient
+
+Here's the Python dictionary output:
+```python
+{'task': ['Sequence Generation', 'Adversarial Training', 'Policy Gradient']}
+```","task:
+  - name: Sequence Generative Adversarial Nets
+    type: Sequence Generation
+  - name: Policy Gradient
+    type: Reinforcement Learning"
+24730424236724d3f798dec02901e7a1f1c4710e,Joint Maximum Purity Forest with Application to Image Super - Resolution,1,"['Task', 'Method']",Joint Maximum Purity Forest with Application to Image Super - Resolution,{'Task': ['Image Super - Resolution']},"Based on the given document title, the following tasks can be identified:
+
+1. Joint Maximum Purity Forest
+2. Application
+3. Image Super-Resolution
+
+Python dictionary output:
+
+```python
+{'task': ['Joint Maximum Purity Forest', 'Application', 'Image Super-Resolution']}
+```","task:
+  - name: Joint Maximum Purity Forest
+    type: ResearchProject
+  - name: Application to Image Super-Resolution
+    type: Application
+    sub_task:
+      - name: Image Super-Resolution
+        type: ComputerVisionTask"
+249b3b7421d3cdb932eecfe4b67203e0e46806b2,document : Cell - aware Stacked LSTMs for Modeling Sentences,1,"['Task', 'Method']",document : Cell - aware Stacked LSTMs for Modeling Sentences,{'Task': ['Modeling Sentences']},"Based on the given document title, there are two potential tasks that can be identified:
+1. Modeling Sentences
+2. Implementing Cell-aware Stacked LSTMs
+
+Here's the Python dictionary representation of the extracted tasks:
+
+```python
+{'task': ['Modeling Sentences', 'Implementing Cell-aware Stacked LSTMs']}
+```","task:
+  - name: Document Classification
+  - name: Topic Modeling
+  - name: Sentence Modeling
+  - name: Named Entity Recognition
+  - name: Part-of-Speech Tagging
+  - name: Dependency Parsing
+  - name: Model Training
+  - name: Model Evaluation
+  - name: Model Deployment
+  - name: Text Preprocessing
+  - name: Data Preparation
+  - name: Feature Extraction
+  - name: Hyperparameter Tuning
+  - name: Cell Selection
+  - name: LSTM Modeling
+  - name: Stack Modeling
+  - name: Stacked LSTM Training
+  - name: Stacked LSTM Evaluation"
+25a784f7f8c94c42821ee078587fc38dffcd00a4,document : Robust Face Detection via Learning Small Faces on Hard Images,1,"['Task', 'Method']",document : Robust Face Detection via Learning Small Faces on Hard Images,"{'Task': ['Learning Small Faces', 'Robust Face Detection']}","{'task': ['Robust Face Detection', 'Learning Small Faces', 'Hard Images']}","task:
+  - name: Face Detection
+    description: Robust Face Detection
+  - name: Learning
+    description: Learning techniques for face detection
+  - name: Small Faces
+    description: Detection of small faces
+  - name: Hard Images
+    description: Face detection on challenging images"
+25f5df29342a04936ba0d308b4d1b8245a7e8f5c,Convolutional Pose Machines,1,"['Task', 'Method']",Convolutional Pose Machines,{'Task': []},"Based on the given document title ""Convolutional Pose Machines"", there isn't any explicit mention of tasks in the title. However, I can provide some common tasks related to Convolutional Neural Networks (CNNs) and Pose Machines that can be inferred from the title:
+
+```python
+{'task': ['Detection of Human Pose', 'Recognition of Human Pose', 'Learning Human Pose using Convolutional Neural Networks']}
+```
+
+These tasks are commonly associated with Convolutional Pose Machines, which aim to detect and recognize human poses using CNNs.","task:
+  - name: Developing Convolutional Pose Machines
+    description: Research and implementation of Convolutional Pose Machines for human pose estimation."
+269730dbbabed8b8b5ba720e44a4c31b1f51e8f1,Published as a conference paper at ICLR 2017 QUERY - REDUCTION NETWORKS FOR QUESTION ANSWERING,1,"['Task', 'Method']",Published as a conference paper at ICLR 2017 QUERY - REDUCTION NETWORKS FOR QUESTION ANSWERING,{'Task': ['QUESTION ANSWERING']},{'task': ['QUERY-REDUCTION NETWORKS FOR QUESTION ANSWERING']},"task:
+  - name: ""Published as a conference paper""
+    type: ""Publication""
+  - name: ""ICLR 2017""
+    type: ""Conference""
+  - name: ""QUERY - REDUCTION NETWORKS""
+    type: ""Research Topic""
+  - name: ""FOR QUESTION ANSWERING""
+    type: ""Application"""
+270e65acc071b9e4e2a632720130c0e10cb6fa08,document : Neural Tree Indexers for Text Understanding,1,"['Task', 'Method']",document : Neural Tree Indexers for Text Understanding,{'Task': ['Text Understanding']},"I'm unable to extract any task entities from the given document title as it only mentions the topic of the document which is ""Neural Tree Indexers for Text Understanding"". To extract task entities, I would need to analyze the content of the document itself, not just the title.","task:
+  - text_understanding: Neural Tree Indexers
+  - indexing: Neural Tree Indexers
+  - information_retrieval: Neural Tree Indexers for Text Understanding
+  - natural_language_processing: Neural Tree Indexers for Text Understanding
+  - machine_learning: Development of Neural Tree Indexers for Text Understanding
+  - research: Neural Tree Indexers for Text Understanding
+  - development: Development of Neural Tree Indexers for Text Understanding
+  - implementation: Neural Tree Indexers for Text Understanding
+  - text_mining: Application of Neural Tree Indexers in Text Mining
+  - information_extraction: Application of Neural Tree Indexers in Information Extraction
+  - question_answering: Application of Neural Tree Indexers in Question Answering Systems"
+2777cd26b2c257843273fe41ad4c5b8cdf1b1b75,document : Understanding Humans in Crowded Scenes : Deep Nested Adversarial Learning and A New Benchmark for Multi - Human Parsing,1,"['Task', 'Method']",document : Understanding Humans in Crowded Scenes : Deep Nested Adversarial Learning and A New Benchmark for Multi - Human Parsing,"{'Task': ['Understanding Humans in Crowded Scenes', 'Multi - Human Parsing']}","{'task': ['Deep Nested Adversarial Learning', 'Multi- Human Parsing', 'Benchmark']}","tasks:
+- name: Deep Nested Adversarial Learning
+  description: A machine learning approach using adversarial learning for multi-human parsing in crowded scenes.
+- name: Multi-Human Parsing
+  description: The task of identifying and separating individual humans in a crowded scene and determining their relationships with each other.
+- name: Benchmarking
+  description: The process of establishing a standard or reference for evaluating the performance of multi-human parsing algorithms."
+27a99c21a1324f087b2f144adc119f04137dfd87,document : Deep Fried Convnets,1,"['Task', 'Method']",document : Deep Fried Convnets,{'Task': []},"Based on the given document title ""Deep Fried Convnets"", it does not contain any explicit task names. Therefore, the output would be an empty list:
+
+{'task': []}
+
+However, if there were task names mentioned in the document, they would be extracted as follows:
+
+```python
+{'task': ['Task1', 'Task2', 'Task3']}
+```
+
+Replace 'Task1', 'Task2', 'Task3' with the actual task names found in the document.","task:
+  - name: Document Processing
+  - sub_tasks:
+    - name: Text Extraction
+      description: Extracting the document title for processing
+      input: ""Deep Fried Convnets""
+      output: ""Deep Fried Convnets""
+    - name: Entity Extraction
+      description: Identifying and extracting entities related to tasks in the document
+      input: ""Deep Fried Convnets""
+      output:
+        - name: Document
+          type: TEXT
+          value: ""Deep Fried Convnets""
+        - name: Task
+          type: TEXT
+          value: ""Deep Fried Convnets""
+          sub_type: DOCUMENT_TITLE
+  - name: Entity Analysis
+    description: Analyzing the extracted entities to identify tasks
+    input: [{""name"": ""Document"", ""type"": ""TEXT"", ""value"": ""Deep Fried Convnets""}, {""name"": ""Task"", ""type"": ""TEXT"", ""value"": ""Deep Fried Convnets"", ""sub_type"": ""DOCUMENT_TITLE""}]
+    output: [{""name"": ""Tasks"", ""type"": ""LIST"", ""value"": [""Deep Fried Convnets""]}]"
+27aa0f3ec934925265f93fac7ff1cd1d70ceb618,Strong Baselines for Neural Semi - supervised Learning under Domain Shift,1,"['Task', 'Method']",Strong Baselines for Neural Semi - supervised Learning under Domain Shift,"{'Task': ['Neural Semi - supervised Learning', 'Domain Shift']}","Based on the given document title, it can be inferred that the tasks mentioned in the document are related to Neural Semi-supervised Learning under Domain Shift. Here's the corresponding Python dictionary:
+
+```python
+{'task': ['Neural Semi-supervised Learning', 'Domain Shift']}
+```","task:
+  - name: ""Neural Semi-supervised Learning""
+    type: ""Machine Learning""
+  - name: ""Domain Shift""
+    type: ""Computer Vision or NLP""
+  - name: ""Baselines""
+    type: ""Research"""
+2a86bcdfb1d817ddb76ba202319f8267a36c0f62,document : PCL : Proposal Cluster Learning for Weakly Supervised Object Detection,1,"['Task', 'Method']",document : PCL : Proposal Cluster Learning for Weakly Supervised Object Detection,{'Task': ['Weakly Supervised Object Detection']},"{'task': ['Proposal Cluster Learning', 'Weakly Supervised Object Detection']}","task:
+  - name: Proposal Cluster Learning
+  - description: The proposed method is called Proposal Cluster Learning (PCL) for Weakly Supervised Object Detection.
+  - type: Research
+
+task:
+  - name: Weakly Supervised Object Detection
+  - description: The document discusses a method for Weakly Supervised Object Detection using Proposal Cluster Learning (PCL).
+  - type: Computer Vision
+
+task:
+  - name: Object Detection
+  - description: The objective of the research is to develop a method for Object Detection using Weakly Supervised learning and Proposal Cluster Learning (PCL).
+  - type: Computer Vision, Machine Learning"
+2f04ba0f74df046b0080ca78e56898bd4847898b,document : Aggregate Channel Features for Multi - view Face Detection,1,"['Task', 'Method']",document : Aggregate Channel Features for Multi - view Face Detection,{'Task': ['Multi - view Face Detection']},"{'task': ['Aggregate Channel Features', 'Multi-view Face Detection']}","task:
+  - name: Aggregate Channel Features
+  - description: Process of combining features from different channels for Multi-view Face Detection."
+2f56b1ac5b9faac9527b6814778925e9242cf5fd,document : Training Region - based Object Detectors with Online Hard Example Mining,1,"['Task', 'Method']",document : Training Region - based Object Detectors with Online Hard Example Mining,{'Task': []},"Based on the given document title, the following entities reflecting the tasks can be identified:
+
+```python
+{'task': ['Training', 'Region-based Object Detectors', 'Online Hard Example Mining']}
+```
+
+So the output will be:
+
+```python
+{'task': ['Training', 'Region-based Object Detectors', 'Online Hard Example Mining']}
+```","task:
+  - name: Training Region-based Object Detectors
+  - name: Online Hard Example Mining"
+2f97ee95cad6a1f13596b108072b846c6f747d4e,document : The Microsoft 2016 Conversational Speech Recognition System,1,"['Task', 'Method']",document : The Microsoft 2016 Conversational Speech Recognition System,{'Task': []},"Based on the given document, there is no explicit mention of tasks or task names. Therefore, an empty list will be returned as the value for the 'task' key in the dictionary.
+
+{'task': []}","task:
+  - name: Developing Conversational Speech Recognition System
+  - year: 2016
+  - company: Microsoft"
+322a7dad274f440a92548faa8f2b2be666b2d01f,document : Pyramid Scene Parsing Network,1,"['Task', 'Method']",document : Pyramid Scene Parsing Network,{'Task': []},"Based on the given document title, there seems to be only one task mentioned which is ""Pyramid Scene Parsing Network"". Here's the Python dictionary representation:
+
+```python
+{'task': ['Pyramid Scene Parsing Network']}
+```","task:
+  - name: Pyramid Scene Parsing
+    type: Network
+    sub_tasks:
+      - name: Scene Parsing
+      - name: Network Architecture
+      - name: Training
+      - name: Inference
+      - name: Post-processing
+      - name: Evaluation"
+325af39d281d5903a269c01fab8f53d7400a4c49,document : ArtTrack : Articulated Multi - person Tracking in the Wild,1,"['Task', 'Method']",document : ArtTrack : Articulated Multi - person Tracking in the Wild,{'Task': []},"{'task': ['Articulated Multi-person Tracking', 'in the Wild']}","task:
+  - name: Articulated Multi-person Tracking
+    description: Tracking multiple persons in the wild with articulated body models."
+33261d252218007147a71e40f8367ed152fa2fe0,Question Answering with Subgraph Embeddings,1,"['Task', 'Method']",Question Answering with Subgraph Embeddings,{'Task': ['Question Answering']},"Based on the given document title, the following entities reflecting the tasks can be identified:
+
+```python
+{'task': ['Question Answering', 'Subgraph Embeddings']}
+```","task:
+  - name: ""Question Answering""
+  - type: ""Natural Language Processing""
+  - sub_tasks:
+    - name: ""Information Retrieval""
+    - name: ""Text Classification""
+    - name: ""Named Entity Recognition""
+    - name: ""Dependency Parsing""
+    - name: ""Coreference Resolution""
+    - name: ""Semantic Role Labeling""
+    - name: ""Question Understanding""
+    - name: ""Answer Extraction""
+    - name: ""Answer Validation""
+  - techniques:
+    - name: ""Subgraph Embeddings""
+    - name: ""Graph Neural Networks""
+    - name: ""Graph Convolutional Networks""
+    - name: ""Graph Attention Networks"""
+3448e6a5039417dc1ae890efeca3bef5390ace7c,document : [,1,"['Task', 'Method']",document : [,{'Task': []},"I'm an AI language model and I don't have the ability to directly process documents or extract entities from them. However, I can give you an example of how you might extract task entities from a given document using Python and a Natural Language Processing (NLP) library like spaCy or NLTK.
+
+Here's an example using spaCy:
+
+```python
+import spacy
+
+nlp = spacy.load(""en_core_web_sm"")
+
+document = [""Your document text goes here""]
+doc = nlp("" "".join(document))
+
+task_entities = []
+
+for ent in doc.ents:
+    if ent.label_ == ""TASK"":
+        task_entities.append(ent.text)
+
+output = {'task': task_entities}
+print(output)
+```
+
+In this example, we first load the English language model from spaCy. We then process the document text by joining all the words into a single string and passing it to the `nlp` function. We then iterate through all the named entities in the document and check if their label is ""TASK"". If so, we add the text of the entity to our list of task entities. Finally, we create a Python dictionary with the key ""task"" and the value being our list of task entities, and print the output.
+
+Note that in order for this code to work, you need to have spaCy installed and the English language model downloaded. You can install spaCy using pip:
+
+```bash
+pip install spacy
+```
+
+And you can download the English language model using the following command:
+
+```bash
+python -m spacy download en_core_web_sm
+```","tasks:
+- title: Review and approve budget report
+  description: Review and approve the monthly budget report submitted by the finance team.
+- title: Schedule team meeting
+  description: Coordinate with team members to schedule a weekly or bi-weekly meeting.
+- title: Respond to customer emails
+  description: Review and respond to customer emails in a timely and professional manner.
+- title: Update project status
+  description: Update the project status report with the latest information and share it with stakeholders.
+- title: Conduct performance reviews
+  description: Conduct regular performance reviews for team members and provide feedback and recommendations for improvement.
+- title: Prepare and present reports
+  description: Prepare and present reports to stakeholders on project progress, financial performance, and other key metrics.
+- title: Manage vendor relationships
+  description: Manage relationships with vendors, negotiate contracts, and ensure timely delivery of goods and services.
+- title: Collaborate on projects
+  description: Collaborate with cross-functional teams on projects, providing expertise and guidance as needed.
+- title: Attend industry events
+  description: Attend industry events and conferences to stay informed about the latest trends and best practices.
+- title: Provide mentorship and coaching
+  description: Provide mentorship and coaching to junior team members to help them develop their skills and advance in their careers."
+35734e8724559fb0d494e5cba6a28ad7a3d5dd4d,document : Explaining and Harnessing Adversarial Examples,1,"['Task', 'Method']",document : Explaining and Harnessing Adversarial Examples,{'Task': []},"I'm an AI language model and I don't have the ability to directly process documents or extract entities from them. However, I can give you an example of how you might extract task entities from your document using Natural Language Processing (NLP) techniques and libraries such as spaCy or NLTK.
+
+Here's an example using spaCy:
+
+```python
+import spacy
+
+nlp = spacy.load(""en_core_web_sm"")
+
+document = nlp(""Explaining and Harnessing Adversarial Examples"")
+
+task_entities = []
+
+for ent in document.ents:
+    if ent.label_ == ""TASK"":
+        task_entities.append(ent.text)
+
+output = {'task': task_entities}
+print(output)
+```
+
+In this example, we first load the English language model from spaCy. We then process the document using the `nlp` function, which returns a `Doc` object. We iterate through the named entities in the document and check if the entity label is ""TASK"". If it is, we add the entity text to our list of task entities. Finally, we create a dictionary with the key ""task"" and the value being our list of task entities, and print the output.
+
+Note that in order for this code to work, you need to have spaCy installed and downloaded the English language model. You can install spaCy using pip:
+
+```bash
+pip install spacy
+```
+
+And download the English language model using the following command:
+
+```bash
+python -m spacy download en_core_web_sm
+```","task:
+  - explaining: Explanation of Adversarial Examples
+  - harnessing: Utilization and Control of Adversarial Examples"
+364c1a3df58d87cb40ab33fdf3831cf2862f3570,document : aNMM : Ranking Short Answer Texts with Attention - Based Neural Matching Model,1,"['Task', 'Method']",document : aNMM : Ranking Short Answer Texts with Attention - Based Neural Matching Model,{'Task': ['Ranking Short Answer Texts']},"{'task': ['Ranking', 'Short Answer Texts', 'with', 'Attention-Based', 'Neural Matching Model']}","task:
+  - name: Ranking
+  - name: Short Answer Texts
+  - name: Developing a Model
+  - name: Based on Attention
+  - name: Neural Matching"
+3842ee1e0fdfeff936b5c49973ff21adfaaf3929,document : Adversarial Discriminative Domain Adaptation,1,"['Task', 'Method']",document : Adversarial Discriminative Domain Adaptation,{'Task': []},"Based on the given document title, the task entities can be identified as:
+
+{'task': ['Adversarial Discriminative Domain Adaptation']}","task:
+  - name: ""Adversarial Discriminative Domain Adaptation""
+  - type: ""Research""
+  - sub_tasks:
+    - name: ""Adversarial Training""
+      type: ""Machine Learning Algorithm""
+    - name: ""Discriminative Training""
+      type: ""Machine Learning Algorithm""
+    - name: ""Domain Adaptation""
+      type: ""Machine Learning Technique"""
+38cc89399dd6f5aaab1654f27ab3c9eeade12a36,document : Exploiting temporal information for 3D human pose estimation,1,"['Task', 'Method']",document : Exploiting temporal information for 3D human pose estimation,{'Task': ['3D human pose estimation']},"{'task': ['3D human pose estimation', 'exploiting temporal information']}","task:
+  - name: ""3D human pose estimation""
+  - sub_tasks:
+    - name: ""Exploiting temporal information"""
+38e2f851b705faa0d0a698ed9885bd6834440073,Probabilistic Model - Agnostic Meta - Learning,1,"['Task', 'Method']",Probabilistic Model - Agnostic Meta - Learning,{'Task': []},"Based on the given document title, it appears to be related to machine learning or artificial intelligence. Here are some potential task entities that could be extracted from the title:
+
+1. Probabilistic Modeling
+2. Meta Learning
+3. Agnostic Meta Learning
+
+Here's the Python dictionary output:
+
+```python
+{'task': ['Probabilistic Modeling', 'Meta Learning', 'Agnostic Meta Learning']}
+```","task:
+  - name: Probabilistic Modeling
+  - name: Agnostic Meta-Learning"
+3aa21de1a7c97e0458e10ed5730ce160bb436caa,document : Pixel2Mesh : Generating 3D Mesh Models from Single RGB Images,1,"['Task', 'Method']",document : Pixel2Mesh : Generating 3D Mesh Models from Single RGB Images,{'Task': []},"{'task': ['Generating 3D Mesh Models', 'from Single RGB Images']}","task:
+  - name: Generating
+  - name: 3D Mesh Models
+  - tool: Pixel2Mesh"
+3acc07f7f8951617276cf99483ed02aeb0a6eeac,document : Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes,1,"['Task', 'Method']",document : Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes,{'Task': ['Semantic Segmentation of Urban Scenes']},"{'task': ['Curriculum Domain Adaptation', 'Semantic Segmentation of Urban Scenes']}","task:
+  - name: Curriculum Domain Adaptation
+    description: A machine learning approach for adapting a semantic segmentation model to urban scenes from a different domain."
+3ca3993b1f3536b15112f759067f62e999c5d38f,BB8 :,1,"['Task', 'Method']",BB8 :,{'Task': []},"Based on the given document, there is no explicit mention of tasks or task names in the text. Therefore, an empty list should be returned as the value for the 'task' key in the dictionary.
+
+Here's the Python dictionary representation of the output:
+```python
+{'task': []}
+```","task:
+- name: BB8
+  description: Unknown command or instruction for BB8 in this line.
+  type: Unknown
+
+tasks:
+- name: Your output must be in YAML format:
+  description: Instruction to format the output as YAML.
+  type: Formatting
+
+- name: task:
+  description: Instruction to extract entities reflecting tasks from the document.
+  type: Extraction
+
+- name: - ...
+  description: Placeholder for tasks to be extracted from the document.
+  type: Task
+
+- name: - ...
+  description: Another placeholder for tasks to be extracted from the document.
+  type: Task"
+3cf31ecb2724b5088783d7c96a5fc0d5604cbf41,document : Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations,1,"['Task', 'Method']",document : Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations,{'Task': ['Dependency Parsing']},"Based on the given document title, the following tasks can be identified:
+
+1. Dependency Parsing
+
+Therefore, the output should be:
+
+```python
+{'task': ['Dependency Parsing']}
+```","task:
+  - name: Dependency Parsing
+  - description: Simple and Accurate implementation using Bidirectional LSTM Feature Representations."
+3daa086acd367dc971a2dc1382caba2031294233,"Holistic , Instance - level Human Parsing",1,"['Task', 'Method']","Holistic , Instance - level Human Parsing","{'Task': ['Holistic , Instance - level Human Parsing']}","{'task': ['Holistic', 'Instance-level', 'Human Parsing']}","task:
+  - name: Holistic Human Parsing
+  - name: Instance-level Human Parsing"
+408e8eecc14c5cc60bbdfc486ba7a7fc97031788,Discriminative Unsupervised Feature Learning with Convolutional Neural Networks Current methods for training convolutional neural networks depend on large amounts of labeled samples for supervised training .,1,"['Task', 'Method']",Discriminative Unsupervised Feature Learning with Convolutional Neural Networks Current methods for training convolutional neural networks depend on large amounts of labeled samples for supervised training .,{'Task': ['supervised training']},"Based on the given document, the following entity reflecting the task can be identified:
+
+{'task': ['training convolutional neural networks', 'supervised training']}","task:
+  - name: Training convolutional neural networks
+  - type: Supervised learning
+  - data_requirement: Large amounts of labeled samples"
+4365eb43a635bc6431dfaf3af1f7bf7bf55522cc,document : CoupleNet : Coupling Global Structure with Local Parts for Object Detection,1,"['Task', 'Method']",document : CoupleNet : Coupling Global Structure with Local Parts for Object Detection,{'Task': ['Object Detection']},"Based on the given document title, the following entities reflecting the tasks can be identified:
+
+* Object Detection
+* Coupling Global Structure with Local Parts
+
+Therefore, the output in the required format would be:
+
+```python
+{'task': ['Object Detection', 'Coupling Global Structure with Local Parts']}
+```","task:
+  - name: ""Coupling Global Structure with Local Parts""
+    description: ""The document discusses the technique of coupling global structure with local parts for object detection.""
+  - name: ""Object Detection""
+    description: ""Object detection is the task identified in the document."""
+436b07bebaa1d1f05ef85415e10374048d25334d,OUTRAGEOUSLY LARGE NEURAL NETWORKS :,1,"['Task', 'Method']",OUTRAGEOUSLY LARGE NEURAL NETWORKS :,{'Task': []},"Based on the given document, there is only one potential task entity mentioned which is ""training Outrageously Large Neural Networks"". Here is the Python dictionary representation:
+
+```python
+{'task': ['training Outrageously Large Neural Networks']}
+```","tasks:
+- extract_information_about_neural_networks
+- identify_large_neural_networks
+- analyze_size_of_neural_networks
+- classify_neural_networks_as_outrageous
+- generate_output_in_yaml_format"
+44078d0daed8b13114cffb15b368acc467f96351,document : Triplet Probabilistic Embedding for Face Verification and Clustering,1,"['Task', 'Method']",document : Triplet Probabilistic Embedding for Face Verification and Clustering,"{'Task': ['Face Verification', 'Clustering']}","Based on the given document title, the following entities reflecting the tasks can be identified:
+
+{'task': ['Face Verification', 'Clustering']}","task:
+  - name: Face Verification
+  - name: Face Clustering
+  - name: Triplet Probabilistic Embedding
+  - technique: Embedding
+  - technique: Probabilistic
+  - technique: Triplet
+  - application: Face Verification
+  - application: Face Clustering"
+45429c281e30f9e87ebcd1ae42e0656d2ead24d1,document : High - Resolution Image Synthesis and Semantic Manipulation with Conditional GANs,1,"['Task', 'Method']",document : High - Resolution Image Synthesis and Semantic Manipulation with Conditional GANs,"{'Task': ['High - Resolution Image Synthesis', 'Semantic Manipulation']}","{'task': ['High-Resolution Image Synthesis', 'Semantic Manipulation', 'Conditional GANs']}","task:
+  - name: High-Resolution Image Synthesis
+  - name: Semantic Manipulation
+  - name: Conditional Generative Adversarial Networks (GANs)
+  - name: Image Synthesis
+  - name: Semantic Manipulation using GANs"
+455da02e5048dffb51fb6ab5eb8aeca5926c9d9a,document : Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition,1,"['Task', 'Method']",document : Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition,{'Task': ['Visual Recognition']},"Based on the given document title, the following task entities can be extracted:
+
+{'task': ['Visual Recognition', 'Deep Convolutional Networks', 'Spatial Pyramid Pooling']}","task:
+  - name: Visual Recognition
+    description: The document discusses the use of Spatial Pyramid Pooling in Deep Convolutional Networks for the task of Visual Recognition."

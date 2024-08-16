@@ -1,0 +1,1279 @@
+doc_id,document,top_k,category,input_data,answer,python_output,yaml_output
+02567fd428a675ca91a0c6786f47f3e35881bcbd,document : Deep Label Distribution Learning With Label Ambiguity,1,"['Task', 'Method']",document : Deep Label Distribution Learning With Label Ambiguity,{'Task': ['Label Ambiguity']},"<ANSWER>
+{'task': ['Deep Label Distribution Learning']}
+</ANSWER>","<ANSWER>
+- task: Deep Label Distribution Learning
+</ANSWER>"
+02b3d1d162080d9aefd3fc30a0bcc9a843073b5d,"In this work we explore recent advances in Recurrent Neural Networks for large scale Language Modeling , a task central to language understanding .",1,"['Task', 'Method']","In this work we explore recent advances in Recurrent Neural Networks for large scale Language Modeling , a task central to language understanding .","{'Task': ['language understanding', 'Language Modeling']}","<ANSWER>
+{'task': ['large scale Language Modeling', 'language understanding']}
+</ANSWER>","<ANSWER>
+- task: Large scale Language Modeling
+- task: Language Understanding
+</ANSWER>"
+0398552184f80db111e9c28bf533b395f233ac00,Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self - paced Curriculum Learning,1,"['Task', 'Method']",Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self - paced Curriculum Learning,"{'Task': ['Weakly Supervised Object Detection', 'Bridging Saliency Detection']}","<ANSWER>
+{'task': ['Bridging Saliency Detection', 'to', 'Weakly Supervised Object Detection', 'Based on', 'Self - paced Curriculum Learning']}
+</ANSWER>","<ANSWER>
+- task: Saliency Detection
+- task: Weakly Supervised Object Detection
+- task: Curriculum Learning
+</ANSWER>"
+05d2700846c0323f79c1344aca5333994c7c03a5,document : The IBM 2016 English Conversational Telephone Speech Recognition System,1,"['Task', 'Method']",document : The IBM 2016 English Conversational Telephone Speech Recognition System,{'Task': ['IBM 2016 English Conversational Telephone Speech Recognition System']},"<ANSWER>
+{'task': ['IBM 2016 English Conversational Telephone Speech Recognition System']}
+</ANSWER>","<ANSWER>
+- task: Development of the IBM 2016 English Conversational Telephone Speech Recognition System
+</ANSWER>"
+0626908dd710b91aece1a81f4ca0635f23fc47f3,document : Rethinking the Inception Architecture for Computer Vision,1,"['Task', 'Method']",document : Rethinking the Inception Architecture for Computer Vision,{'Task': ['Computer Vision']},"<ANSWER>
+{'task': ['Rethinking', 'Inception Architecture', 'for', 'Computer Vision']}
+</ANSWER>","<ANSWER>
+- task: Rethinking the Inception Architecture
+<ANSWER>"
+0678a8abea82793993cd89383319da75f6dc4be3,document : ProNet : Learning to Propose Object - specific Boxes for Cascaded Neural Networks,1,"['Task', 'Method']",document : ProNet : Learning to Propose Object - specific Boxes for Cascaded Neural Networks,{'Task': []},"<ANSWER>
+{'task': ['Learning to Propose Object-specific Boxes', 'Cascaded Neural Networks']}
+</ANSWER>","<ANSWER>
+- task: Object Detection
+- task: Proposing Object-specific Boxes
+- task: Learning
+- task: Training Neural Networks
+- task: Cascaded Neural Networks
+</ANSWER>"
+081531984770a74e87dbd68907061b4b0f3631bf,document : Real - Time Video Super - Resolution with Spatio - Temporal Networks and Motion Compensation,1,"['Task', 'Method']",document : Real - Time Video Super - Resolution with Spatio - Temporal Networks and Motion Compensation,{'Task': ['Real - Time Video Super - Resolution']},"<ANSWER>
+{'task': ['Real-Time Video Super-Resolution', 'Video Super-Resolution with Spatio-Temporal Networks', 'Motion Compensation']}
+</ANSWER>","<ANSWER>
+- task: Real-Time Video Super-Resolution
+- task: Implementing Spatio-Temporal Networks
+- task: Motion Compensation
+</ANSWER>"
+0834e74304b547c9354b6d7da6fa78ef47a48fa8,document : LINE : Large - scale Information Network Embedding,1,"['Task', 'Method']",document : LINE : Large - scale Information Network Embedding,{'Task': []},"<ANSWER>
+{'task': ['Large-scale Information Network Embedding']}
+</ANSWER>","<ANSWER>
+- task: Large-scale Information Network Embedding
+<ANSWER>"
+0a3381f0432c5cfe491c718349d7a44e5814592c,document : Compositional Sequence Labeling Models for Error Detection in Learner Writing,1,"['Task', 'Method']",document : Compositional Sequence Labeling Models for Error Detection in Learner Writing,"{'Task': ['Learner Writing', 'Error Detection']}","<ANSWER>
+{'task': ['Compositional Sequence Labeling Models', 'Error Detection', 'in Learner Writing']}
+</ANSWER>","<ANSWER>
+- task: Compositional Sequence Labeling
+- task: Error Detection
+- task: In learner writing
+</ANSWER>"
+0a6c36de8726b6feaab586046ddc1d1a008f44f9,document : Filtered Channel Features for Pedestrian Detection,1,"['Task', 'Method']",document : Filtered Channel Features for Pedestrian Detection,{'Task': ['Pedestrian Detection']},"<ANSWER>
+{'task': ['Filtered Channel Features', 'Pedestrian Detection']}
+</ANSWER>","<ANSWER>
+- task: Pedestrian Detection
+</\ANSWER>"
+0c47cad9729c38d9db1f75491b1ee4bd883a5d4e,document : Semi - Supervised Sequence Modeling with Cross - View Training,1,"['Task', 'Method']",document : Semi - Supervised Sequence Modeling with Cross - View Training,{'Task': []},"<ANSWER>
+{'task': ['Semi-Supervised Sequence Modeling', 'Cross-View Training']}
+</ANSWER>","<ANSWER>
+- task: Sequence Modeling
+- task: Semi-Supervised Learning
+- task: Cross-View Training
+</ANSWER>"
+0dc9eb7d17f2def56ad930945f2521653f04c3fa,Skip - gram Language Modeling Using Sparse Non - negative Matrix Probability Estimation,1,"['Task', 'Method']",Skip - gram Language Modeling Using Sparse Non - negative Matrix Probability Estimation,{'Task': ['Skip - gram Language Modeling']},"<ANSWER>
+{'task': ['Language Modeling', 'Using', 'Sparse Non-negative Matrix Probability Estimation']}
+</ANSWER>","<ANSWER>
+- task: Language Modeling
+- task: Skip-gram Modeling
+- task: Sparse Non-negative Matrix Probability Estimation
+</ANSWER>"
+107010b7f2abe3c0c9df62bcef35eb77f6fc76df,Domain - Adversarial Training of Neural Networks,1,"['Task', 'Method']",Domain - Adversarial Training of Neural Networks,{'Task': []},"<ANSWER>
+{'task': ['Adversarial Training']}
+</ANSWER>","<ANSWER>
+- task: Adversarial Training
+</\ANSWER>"
+1130d8fdd931225c2d7563c3808367726cfa1c3a,document : PixelGAN Autoencoders,1,"['Task', 'Method']",document : PixelGAN Autoencoders,{'Task': []},"<ANSWER>
+{'task': ['PixelGAN Autoencoders']}
+</ANSWER>
+
+Explanation:
+The document mentions ""PixelGAN Autoencoders"". An autoencoder is a type of neural network used for learning efficient codings of input data. PixelGAN is a specific implementation of a generative adversarial network (GAN) that can be used as an autoencoder. Therefore, the task mentioned in the document is ""PixelGAN Autoencoders"". The output is a Python dictionary with the key 'task' and the value being a list containing the task name entity.","<ANSWER>
+- task: Image Generation
+- task: Autoencoding
+</ANSWER>
+
+The document mentions ""PixelGAN Autoencoders"", which implies that the tasks being performed are Image Generation using a PixelGAN model and Autoencoding."
+11356cd6bb0f2776a88cd584ff108470414c6594,document : Submanifold Sparse Convolutional Networks,1,"['Task', 'Method']",document : Submanifold Sparse Convolutional Networks,{'Task': []},"<ANSWER>
+{'task': ['Submanifold Sparse Convolutional Networks']}
+<ANSWER>
+{'task': ['Submanifold', 'Sparse Convolutional Networks']}
+<ANSWER>
+{'task': ['Submanifold', 'Sparse', 'Convolutional Networks']}
+<ANSWER>
+{'task': ['Submanifold', 'Task: Sparse Convolutional Networks']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse Convolutional Networks']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutional Networks']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Networks']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Design']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Development']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Implementation']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Research']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Training']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Testing']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Evaluation']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Optimization']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Deployment']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Maintenance']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Monitoring']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Upgrades']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Improvements']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Expansion']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Scaling']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Integration']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Customization']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Troubleshooting']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Writing']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Editing']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Formatting']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Publishing']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Distribution']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Translation']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Review']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Revision']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Proofreading']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Formatting', 'Layout']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Graphics']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Illustrations']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Tables']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Figures']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Captions']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'References']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Bibliography']}
+<ANSWER>
+{'task': ['Submanifold', 'Task', 'Sparse', 'Convolutions', 'Network Documentation', 'Indexing']}
+<","<ANSWER>
+- task: Researching or studying the topic of Submanifold Sparse Convolutional Networks
+<ANSWER>"
+11da0c54ba904a1cb31a09d10da55f73e8825c61,document : Natural Language Inference by Tree - Based Convolution and Heuristic Matching,1,"['Task', 'Method']",document : Natural Language Inference by Tree - Based Convolution and Heuristic Matching,{'Task': ['Natural Language Inference']},"<ANSWER>
+{'task': ['Natural Language Inference', 'Tree-Based Convolution', 'Heuristic Matching']}
+</ANSWER>","<ANSWER>
+- task: Natural Language Inference
+- task: Tree-Based Convolution
+- task: Heuristic Matching
+</ANSWER>"
+1235dd37312cb20aced0e97d953f6379d8a0c7d4,document : Grounded Textual Entailment,1,"['Task', 'Method']",document : Grounded Textual Entailment,{'Task': ['Grounded Textual Entailment']},"<ANSWER>
+{'task': ['Grounded Textual Entailment']}
+</ANSWER>","<ANSWER>
+- task: Grounded Textual Entailment
+</ANSWER>"
+14318685b5959b51d0f1e3db34643eb2855dc6d9,document : Going deeper with convolutions,1,"['Task', 'Method']",document : Going deeper with convolutions,{'Task': []},"<ANSWER>
+{'task': ['Going deeper with convolutions']}
+</ANSWER>","<ANSWER>
+- task: Understanding deeper concepts of convolutions
+<ANSWER>"
+16051bbe3a7f7c77a952ebf76722ea655e8906ca,Image Super - resolution via Feature - augmented Random Forest,1,"['Task', 'Method']",Image Super - resolution via Feature - augmented Random Forest,{'Task': ['Image Super - resolution']},"<ANSWER>
+{'task': ['Image Super-resolution', 'Feature augmentation', 'Random Forest']}
+</ANSWER>","<ANSWER>
+- task: Image Super-resolution
+- task: Feature Augmentation
+- task: Random Forest Classification
+</ANSWER>"
+160563abbd75265b19afc8b4169bab9e1eb33d97,document : Massively Multilingual Sentence Embeddings for Zero - Shot Cross - Lingual Transfer and Beyond,1,"['Task', 'Method']",document : Massively Multilingual Sentence Embeddings for Zero - Shot Cross - Lingual Transfer and Beyond,"{'Task': ['Massively Multilingual Sentence Embeddings', 'Zero - Shot Cross - Lingual Transfer']}","<ANSWER>
+{'task': ['Massively Multilingual Sentence Embeddings', 'Zero-Shot Cross-Lingual Transfer']}
+</ANSWER>","<ANSWER>
+- task: Massively Multilingual Sentence Embeddings
+- task: Zero-Shot Cross-Lingual Transfer
+</ANSWER>"
+175f74a09241b6cb5101a2a09978095720db7d5f,document : Image Super - Resolution via Dual - State Recurrent Networks,1,"['Task', 'Method']",document : Image Super - Resolution via Dual - State Recurrent Networks,{'Task': ['Image Super - Resolution']},"<ANSWER>
+{'task': ['Image Super-Resolution']}
+</ANSWER>","<ANSWER>
+- task: Image Super-Resolution
+- task: Dual-State Recurrent Networks
+</ANSWER>
+
+The given document is about ""Image Super-Resolution via Dual-State Recurrent Networks"". Therefore, the tasks mentioned in the document are ""Image Super-Resolution"" and ""Dual-State Recurrent Networks""."
+1778e32c18bd611169e64c1805a51abff341ca53,document : Natural Language Inference over Interaction Space,1,"['Task', 'Method']",document : Natural Language Inference over Interaction Space,"{'Task': ['Interaction Space', 'Natural Language Inference']}","<ANSWER>
+{'task': ['Natural Language Inference', 'Interaction Space']}
+</ANSWER>","<ANSWER>
+- task: Natural Language Inference
+- task: over Interaction Space
+</ANSWER>"
+178275dbdcfa267e41a9d5efe386ee5874c6d23f,document : Fraternal Dropout,1,"['Task', 'Method']",document : Fraternal Dropout,{'Task': []},"<ANSWER>
+{'task': ['Fraternal Dropout']}
+</ANSWER>","<ANSWER>
+- task: Fraternal Dropout
+<ANSWER>"
+178631e0f0e624b1607c7a7a2507ed30d4e83a42,document : Speech Recognition with Deep Recurrent Neural Networks,1,"['Task', 'Method']",document : Speech Recognition with Deep Recurrent Neural Networks,{'Task': ['Speech Recognition']},"<ANSWER>
+{'task': ['Speech Recognition']}
+</ANSWER>","<ANSWER>
+- task: Speech Recognition
+</ANSWER>
+
+<ANSWER>
+- task: Implementing Speech Recognition using Deep Recurrent Neural Networks
+</ANSWER>"
+18168aea48a22f6fe2fe407c0ff70083cba225a7,document : Image Restoration Using Very Deep Convolutional Encoder - Decoder Networks with Symmetric Skip Connections,1,"['Task', 'Method']",document : Image Restoration Using Very Deep Convolutional Encoder - Decoder Networks with Symmetric Skip Connections,{'Task': ['Image Restoration']},"<ANSWER>
+{'task': ['Image Restoration', 'Convolutional Encoder-Decoder Networks', 'Very Deep Convolutional Networks', 'Symmetric Skip Connections']}
+</ANSWER>","<ANSWER>
+- task: Image Restoration
+- task: Using Very Deep Convolutional Encoder-Decoder Networks
+- task: With Symmetric Skip Connections
+</ANSWER>"
+193089d56758ab88391d846edd08d359b1f9a863,document : A Discriminatively Learned CNN Embedding for Person Re - identification,1,"['Task', 'Method']",document : A Discriminatively Learned CNN Embedding for Person Re - identification,{'Task': ['Person Re - identification']},"<ANSWER>
+{'task': ['Person Re-identification']}
+</ANSWER>","<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Discriminatively Learned CNN Embedding
+</ANSWER>"
+193b518bc3025804c6d587c74cbc154d91478417,document : Learning to Adapt Structured Output Space for Semantic Segmentation,1,"['Task', 'Method']",document : Learning to Adapt Structured Output Space for Semantic Segmentation,{'Task': ['Semantic Segmentation']},"<ANSWER>
+{'task': ['Learning to Adapt', 'Structured Output Space', 'Semantic Segmentation']}
+</ANSWER>
+
+In this document, the tasks are:
+
+1. Learning to Adapt
+2. Adapting Structured Output Space
+3. Semantic Segmentation","<ANSWER>
+- task: Semantic Segmentation
+- task: Learning to Adapt
+- task: Structured Output Space
+</ANSWER>"
+1d0dcb458aa4d30b51f7c74b159be687f39120a0,document : Pose - driven Deep Convolutional Model for Person Re - identification,1,"['Task', 'Method']",document : Pose - driven Deep Convolutional Model for Person Re - identification,{'Task': ['Person Re - identification']},"<ANSWER>
+{'task': ['Person Re-identification']}
+</ANSWER>","<ANSWER>
+tasks:
+- task: Person Re-identification
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Deep Learning
+- task: Convolutional Model
+- task: Pose-driven
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Pose Estimation
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+- task: Hyperparameter Tuning
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+- task: Hyperparameter Tuning
+- task: Model Evaluation
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+- task: Hyperparameter Tuning
+- task: Model Evaluation
+- task: Result Analysis
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+- task: Hyperparameter Tuning
+- task: Model Evaluation
+- task: Result Analysis
+- task: Report Writing
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+- task: Hyperparameter Tuning
+- task: Model Evaluation
+- task: Result Analysis
+- task: Report Writing
+- task: Presentation
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+- task: Hyperparameter Tuning
+- task: Model Evaluation
+- task: Result Analysis
+- task: Report Writing
+- task: Presentation
+- task: Deployment
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task: Model Training
+- task: Data Preprocessing
+- task: Data Augmentation
+- task: Data Labeling
+- task: Hyperparameter Tuning
+- task: Model Evaluation
+- task: Result Analysis
+- task: Report Writing
+- task: Presentation
+- task: Deployment
+- task: Maintenance
+</ANSWER>
+
+<ANSWER>
+tasks:
+- task: Person Re-identification
+- task: Computer Vision
+- task: Deep Learning
+- task: Convolutional Neural Networks (CNNs)
+- task: Feature Extraction
+- task: Pose Estimation
+- task:"
+1f08598381af9146d0fd9a61b30d0e51a7331689,document : Distributed Prioritized Experience Replay,1,"['Task', 'Method']",document : Distributed Prioritized Experience Replay,{'Task': ['Distributed Prioritized Experience Replay']},"<ANSWER>
+{'task': ['Distributed Prioritized Experience Replay']}
+</ANSWER>","<ANSWER>
+- task: Distributed Prioritized Experience Replay
+<ANSWER>"
+2138a7127429d67746ec78de46d6820fee0e548e,document : Graph2Seq : Graph to Sequence Learning with Attention - Based Neural Networks,1,"['Task', 'Method']",document : Graph2Seq : Graph to Sequence Learning with Attention - Based Neural Networks,{'Task': ['Graph to Sequence Learning']},"<ANSWER>
+{'task': ['Graph to Sequence Learning', 'Neural Networks']}
+</ANSWER>","<ANSWER>
+- task: Graph to Sequence Learning
+- task: Using Attention-Based Neural Networks
+</ANSWER>"
+21a1654b856cf0c64e60e58258669b374cb05539,"document : You Only Look Once : Unified , Real - Time Object Detection",1,"['Task', 'Method']","document : You Only Look Once : Unified , Real - Time Object Detection",{'Task': ['Real - Time Object Detection']},"<ANSWER>
+{'task': ['Unified', 'Real-Time', 'Object Detection']}
+</ANSWER>","<ANSWER>
+- task: Object Detection
+- task: Real-Time Object Detection
+- task: Unified Object Detection
+</ANSWER>"
+232b43584b2236669c0a53702ad89ab10c3886ea,"In this work , we build on recent advances in distributional reinforcement learning to give a generally applicable , flexible , and state - of - the - art distributional variant of DQN .",1,"['Task', 'Method']","In this work , we build on recent advances in distributional reinforcement learning to give a generally applicable , flexible , and state - of - the - art distributional variant of DQN .",{'Task': []},"<ANSWER>
+{'task': ['distributional reinforcement learning', 'giving a distributional variant of DQN']}
+</ANSWER>","<ANSWER>
+- task: Building a distributional variant of DQN using recent advances in distributional reinforce learning
+</ANSWER>"
+23d2d3a6ffebfecaa8930307fdcf451c147757c8,document : SeqGAN : Sequence Generative Adversarial Nets with Policy Gradient,1,"['Task', 'Method']",document : SeqGAN : Sequence Generative Adversarial Nets with Policy Gradient,{'Task': []},"<ANSWER>
+{'task': ['Sequence Generative Adversarial Nets', 'Nets with Policy Gradient']}
+</ANSWER>","<ANSWER>
+- task: Sequence Generation
+- task: Adversarial Training
+- task: Policy Gradient
+</ANSWER>"
+24730424236724d3f798dec02901e7a1f1c4710e,Joint Maximum Purity Forest with Application to Image Super - Resolution,1,"['Task', 'Method']",Joint Maximum Purity Forest with Application to Image Super - Resolution,{'Task': ['Image Super - Resolution']},"<ANSWER>
+{'task': ['Joint Maximum Purity Forest', 'Application to Image Super-Resolution']}
+</ANSWER>","<ANSWER>
+- task: Forest Segmentation (Joint Maximum Purity Forest)
+- task: Image Super-Resolution
+</ANSWER>"
+249b3b7421d3cdb932eecfe4b67203e0e46806b2,document : Cell - aware Stacked LSTMs for Modeling Sentences,1,"['Task', 'Method']",document : Cell - aware Stacked LSTMs for Modeling Sentences,{'Task': ['Modeling Sentences']},"<ANSWER>
+{'task': ['Modeling Sentences']}
+</ANSWER>","<ANSWER>
+- task: Modeling Sentences
+- task: Cell-aware Stacked LSTMs
+<ANSWER>"
+25a784f7f8c94c42821ee078587fc38dffcd00a4,document : Robust Face Detection via Learning Small Faces on Hard Images,1,"['Task', 'Method']",document : Robust Face Detection via Learning Small Faces on Hard Images,"{'Task': ['Learning Small Faces', 'Robust Face Detection']}","<ANSWER>
+{'task': ['Robust Face Detection']}
+</ANSWER>","<ANSWER>
+tasks:
+- task: Face Detection
+- task: Robust Face Detection
+- task: Learning
+- task: Small Faces
+- task: Hard Images
+</ANSWER>"
+25f5df29342a04936ba0d308b4d1b8245a7e8f5c,Convolutional Pose Machines,1,"['Task', 'Method']",Convolutional Pose Machines,{'Task': []},"<ANSWER>
+{'task': ['Convolutional Pose Machines']}
+<ANSWER>
+In this document, the task is explicitly mentioned as ""Convolutional Pose Machines"". Therefore, the output will be a dictionary with the key 'task' and the value as a list containing the task name entity.
+<ANSWER>
+{'task': ['Convolutional Pose Machines']}
+<ANSWER>","<ANSWER>
+- task: Researching or studying Convolutional Pose Machines
+<ANSWER>"
+269730dbbabed8b8b5ba720e44a4c31b1f51e8f1,Published as a conference paper at ICLR 2017 QUERY - REDUCTION NETWORKS FOR QUESTION ANSWERING,1,"['Task', 'Method']",Published as a conference paper at ICLR 2017 QUERY - REDUCTION NETWORKS FOR QUESTION ANSWERING,{'Task': ['QUESTION ANSWERING']},"<ANSWER>
+{'task': ['Question Answering']}
+</ANSWER>","<ANSWER>
+- task: Research
+- task: Publication
+- task: Conference Paper
+- task: ICLR 2017
+- task: Query Processing
+- task: Reduction Networks
+- task: Question Answering
+</ANSWER>"
+270e65acc071b9e4e2a632720130c0e10cb6fa08,document : Neural Tree Indexers for Text Understanding,1,"['Task', 'Method']",document : Neural Tree Indexers for Text Understanding,{'Task': ['Text Understanding']},"<ANSWER>
+{'task': ['Neural Tree Indexers', 'Text Understanding']}
+</ANSWER>","<ANSWER>
+- task: Neural Tree Indexing
+- task: Text Understanding
+</ANSWER>
+
+The document is about ""Neural Tree Indexers for Text Understanding"". The tasks mentioned in the document are ""Neural Tree Indexing"" and ""Text Understanding""."
+2777cd26b2c257843273fe41ad4c5b8cdf1b1b75,document : Understanding Humans in Crowded Scenes : Deep Nested Adversarial Learning and A New Benchmark for Multi - Human Parsing,1,"['Task', 'Method']",document : Understanding Humans in Crowded Scenes : Deep Nested Adversarial Learning and A New Benchmark for Multi - Human Parsing,"{'Task': ['Understanding Humans in Crowded Scenes', 'Multi - Human Parsing']}","<ANSWER>
+{'task': ['Deep Nested Adversarial Learning', 'Multi- Human Parsing', 'Benchmark']}
+</ANSWER>","<ANSWER>
+- task: Deep Learning
+- task: Adversarial Learning
+- task: Multi-Human Parsing
+- task: Benchmarking
+</ANSWER>"
+27a99c21a1324f087b2f144adc119f04137dfd87,document : Deep Fried Convnets,1,"['Task', 'Method']",document : Deep Fried Convnets,{'Task': []},"<ANSWER>
+{'task': ['Deep Fried Convnets']}
+</ANSWER>","<ANSWER>
+- task: Document Analysis
+- task: Named Entity Recognition
+- task: YAML Format Conversion
+
+Output:
+```yaml
+tasks:
+- Document Analysis
+- Named Entity Recognition
+- YAML Format Conversion
+```
+</ANSWER>"
+27aa0f3ec934925265f93fac7ff1cd1d70ceb618,Strong Baselines for Neural Semi - supervised Learning under Domain Shift,1,"['Task', 'Method']",Strong Baselines for Neural Semi - supervised Learning under Domain Shift,"{'Task': ['Neural Semi - supervised Learning', 'Domain Shift']}","<ANSWER>
+{'task': ['Neural Semi-supervised Learning', 'Domain Shift']}
+</ANSWER>","<ANSWER>
+- task: Neural Semi-supervised Learning
+- task: Strong Baselines
+- task: Domain Shift
+</ANSWER>"
+2a86bcdfb1d817ddb76ba202319f8267a36c0f62,document : PCL : Proposal Cluster Learning for Weakly Supervised Object Detection,1,"['Task', 'Method']",document : PCL : Proposal Cluster Learning for Weakly Supervised Object Detection,{'Task': ['Weakly Supervised Object Detection']},"<ANSWER>
+{'task': ['Proposal Cluster Learning', 'Weakly Supervised Object Detection']}
+</ANSWER>","<ANSWER>
+- task: Proposal Cluster Learning
+</ANSWER>
+
+<ANSWER>
+- task: Weakly Supervised Object Detection
+</ANSWER>"
+2f04ba0f74df046b0080ca78e56898bd4847898b,document : Aggregate Channel Features for Multi - view Face Detection,1,"['Task', 'Method']",document : Aggregate Channel Features for Multi - view Face Detection,{'Task': ['Multi - view Face Detection']},"<ANSWER>
+{'task': ['Aggregate Channel Features', 'Multi-view Face Detection']}
+</ANSWER>","<ANSWER>
+- task: Aggregate
+- task: Channel Features
+- task: Multi-view Face Detection
+</ANSWER>"
+2f56b1ac5b9faac9527b6814778925e9242cf5fd,document : Training Region - based Object Detectors with Online Hard Example Mining,1,"['Task', 'Method']",document : Training Region - based Object Detectors with Online Hard Example Mining,{'Task': []},"<ANSWER>
+{'task': ['Training', 'Region-based Object Detectors', 'with', 'Online Hard Example Mining']}
+</ANSWER>","<ANSWER>
+- task: Training
+- task: Region-based Object Detectors
+- task: Online Hard Example Mining
+</ANSWER>"
+2f97ee95cad6a1f13596b108072b846c6f747d4e,document : The Microsoft 2016 Conversational Speech Recognition System,1,"['Task', 'Method']",document : The Microsoft 2016 Conversational Speech Recognition System,{'Task': []},"<ANSWER>
+{'task': ['Microsoft 2016 Conversational Speech Recognition System']}
+</ANSWER>","<ANSWER>
+- task: Development of Conversational Speech Recognition System
+- task: Implementation of Microsoft 2016 Conversational Speech Recognition System
+</ANSWER>"
+322a7dad274f440a92548faa8f2b2be666b2d01f,document : Pyramid Scene Parsing Network,1,"['Task', 'Method']",document : Pyramid Scene Parsing Network,{'Task': []},"<ANSWER>
+{'task': ['Pyramid Scene Parsing Network']}
+</ANSWER>","<ANSWER>
+- task: Pyramid Scene Parsing
+<ANSWER>"
+325af39d281d5903a269c01fab8f53d7400a4c49,document : ArtTrack : Articulated Multi - person Tracking in the Wild,1,"['Task', 'Method']",document : ArtTrack : Articulated Multi - person Tracking in the Wild,{'Task': []},"<ANSWER>
+{'task': ['Articulated Multi-person Tracking']}
+</ANSWER>","<ANSWER>
+- task: Articulated Multi-person Tracking
+- task: Tracking in the Wild
+</ANSWER>"
+33261d252218007147a71e40f8367ed152fa2fe0,Question Answering with Subgraph Embeddings,1,"['Task', 'Method']",Question Answering with Subgraph Embeddings,{'Task': ['Question Answering']},"{'task': ['Question Answering']}
+
+<ANSWER>
+{'task': ['Question Answering']}
+</ANSWER>","task: Question Answering
+
+<ANSWER>
+{
+  ""tasks"": [""Question Answering""]
+}
+</ANSWER>
+
+task: Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Question Answering, Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Question Answering"", ""Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Question Answering using Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Question Answering using Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Question Answering using Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Question Answering using Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Applying Subgraph Embeddings to Question Answering
+
+<ANSWER>
+{
+  ""tasks"": [""Applying Subgraph Embeddings to Question Answering""]
+}
+</ANSWER>
+
+task: [Applying Subgraph Embeddings to Question Answering]
+
+<ANSWER>
+{
+  ""tasks"": [""Applying Subgraph Embeddings to Question Answering""]
+}
+</ANSWER>
+
+task: Implementing Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Implementing Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Implementing Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Implementing Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Developing a System for Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Developing a System for Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Developing a System for Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Developing a System for Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Researching Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Researching Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Researching Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Researching Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Exploring Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Exploring Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Exploring Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Exploring Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Investigating Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Investigating Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Investigating Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Investigating Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Studying Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Studying Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Studying Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Studying Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Learning Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Learning Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Learning Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Learning Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Mastering Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Mastering Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Mastering Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Mastering Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Specializing in Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Specializing in Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Specializing in Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Specializing in Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Focusing on Question Answering with Subgraph Embeddings
+
+<ANSWER>
+{
+  ""tasks"": [""Focusing on Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: [Focusing on Question Answering with Subgraph Embeddings]
+
+<ANSWER>
+{
+  ""tasks"": [""Focusing on Question Answering with Subgraph Embeddings""]
+}
+</ANSWER>
+
+task: Concentrating on Question Answering with Subgraph Embeddings
+
+<ANSWER>"
+3448e6a5039417dc1ae890efeca3bef5390ace7c,document : [,1,"['Task', 'Method']",document : [,{'Task': []},"<ANSWER>
+{'task': []}
+
+# Step 1: Import necessary libraries
+import spacy
+nlp = spacy.load(""en_core_web_sm"")
+
+# Step 2: Process the document
+doc = nlp(document)
+
+# Step 3: Extract task entities
+task_entities = []
+for ent in doc.ents:
+ if ent.label_ == ""TASK"":
+ task_entities.append(ent.text)
+
+# Step 4: Update the dictionary
+result_dict = {'task': task_entities}
+</ANSWER>","<ANSWER>
+- task: Write output in YAML format
+- task: Extract entities reflecting tasks from document
+- task: Wrap final answer in <ANSWER> and </ANSWER>
+<ANSWER>
+- task: [Your output must be in YAML format]
+- task: [Extract entities reflecting tasks from document]
+- task: [Wrap final answer in <ANSWER> and </ANSWER>]
+<ANSWER>
+{
+  ""tasks"": [
+    {
+      ""task"": ""Write output in YAML format""
+    },
+    {
+      ""task"": ""Extract entities reflecting tasks from document""
+    },
+    {
+      ""task"": ""Wrap final answer in <ANSWER> and </ANSWER>""
+    }
+  ]
+}
+<ANSWER>"
+35734e8724559fb0d494e5cba6a28ad7a3d5dd4d,document : Explaining and Harnessing Adversarial Examples,1,"['Task', 'Method']",document : Explaining and Harnessing Adversarial Examples,{'Task': []},"<ANSWER>
+{'task': ['Explaining', 'Harnessing']}
+</ANSWER>","<ANSWER>
+- task: Explaining
+- task: Harnessing
+<ANSWER>"
+364c1a3df58d87cb40ab33fdf3831cf2862f3570,document : aNMM : Ranking Short Answer Texts with Attention - Based Neural Matching Model,1,"['Task', 'Method']",document : aNMM : Ranking Short Answer Texts with Attention - Based Neural Matching Model,{'Task': ['Ranking Short Answer Texts']},"<ANSWER>
+{'task': ['Ranking', 'Short Answer Texts', 'with', 'Attention-Based', 'Neural Matching Model']}
+</ANSWER>","<ANSWER>
+tasks:
+- text_ranking
+- short_answer_texts
+- attention_based_neural_matching_model
+</ANSWER>"
+3842ee1e0fdfeff936b5c49973ff21adfaaf3929,document : Adversarial Discriminative Domain Adaptation,1,"['Task', 'Method']",document : Adversarial Discriminative Domain Adaptation,{'Task': []},"<ANSWER>
+{'task': ['Adversarial Discriminative Domain Adaptation']}
+</ANSWER>
+
+The document title ""Adversarial Discriminative Domain Adaptation"" is the task entity in this case.","<ANSWER>
+- task: Adversarial Discriminative Domain Adaptation
+<ANSWER>"
+38cc89399dd6f5aaab1654f27ab3c9eeade12a36,document : Exploiting temporal information for 3D human pose estimation,1,"['Task', 'Method']",document : Exploiting temporal information for 3D human pose estimation,{'Task': ['3D human pose estimation']},"<ANSWER>
+{'task': ['3D human pose estimation', 'exploiting temporal information']}
+</ANSWER>","<ANSWER>
+- task: Temporal Information Exploitation
+- task: 3D Human Pose Estimation
+</ANSWER>"
+38e2f851b705faa0d0a698ed9885bd6834440073,Probabilistic Model - Agnostic Meta - Learning,1,"['Task', 'Method']",Probabilistic Model - Agnostic Meta - Learning,{'Task': []},"<ANSWER>
+{'task': ['Probabilistic Model', 'Meta-Learning', 'Agnostic Learning']}
+</ANSWER>","<ANSWER>
+- task: Probabilistic Modeling
+- task: Agnostic Meta-Learning
+</ANSWER>"
+3aa21de1a7c97e0458e10ed5730ce160bb436caa,document : Pixel2Mesh : Generating 3D Mesh Models from Single RGB Images,1,"['Task', 'Method']",document : Pixel2Mesh : Generating 3D Mesh Models from Single RGB Images,{'Task': []},"<ANSWER>
+{'task': ['Generating', '3D Mesh Models', 'from', 'Single RGB Images']}
+</ANSWER>","<ANSWER>
+- task: Generating
+- task: 3D Mesh Models
+- task: from
+- task: Single RGB Images
+</ANSWER>"
+3acc07f7f8951617276cf99483ed02aeb0a6eeac,document : Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes,1,"['Task', 'Method']",document : Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes,{'Task': ['Semantic Segmentation of Urban Scenes']},"<ANSWER>
+{'task': ['Curriculum Domain Adaptation', 'Semantic Segmentation of Urban Scenes']}
+</ANSWER>","<ANSWER>
+- task: Curriculum Domain Adaptation
+- task: Semantic Segmentation
+- task: Urban Scenes
+</ANSWER>"
+3ca3993b1f3536b15112f759067f62e999c5d38f,BB8 :,1,"['Task', 'Method']",BB8 :,{'Task': []},"<ANSWER>
+{'task': []}
+</ANSWER>
+
+This document does not contain any task name entities. Therefore, we initialize an empty list for the 'task' key in the dictionary.","<ANSWER>
+- task: BB8 is a task name or identifier.
+</ANSWER>
+
+<ANSWER>
+- task: The document asks for extracting entities reflecting the tasks in the document.
+</ANSWER>
+
+<ANSWER>
+- task: The document provides a document with the task identifier BB8.
+</ANSWER>
+
+<ANSWER>
+- task: The document requests the output in YAML format.
+</ANSWER>
+
+<ANSWER>
+- task: The document asks for extracting entities.
+</ANSWER>
+
+<ANSWER>
+- task: The document asks for reflecting the tasks in the document.
+</ANSWER>"
+3cf31ecb2724b5088783d7c96a5fc0d5604cbf41,document : Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations,1,"['Task', 'Method']",document : Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations,{'Task': ['Dependency Parsing']},"<ANSWER>
+{'task': ['Dependency Parsing']}
+</ANSWER>","<ANSWER>
+- task: Dependency Parsing
+</ANSWER>
+
+<ANSWER>
+- task: Parsing Using
+- task: Bidirectional LSTM
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and Accurate
+</ANSWER>
+
+<ANSWER>
+- task: Using
+</ANSWER>
+
+<ANSWER>
+- task: Bidirectional LSTM Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Parsing
+</ANSWER>
+
+<ANSWER>
+- task: With
+- task: Bidirectional LSTM
+</ANSWER>
+
+<ANSWER>
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: For Dependency Parsing
+</ANSWER>
+
+<ANSWER>
+- task: Accurate
+</ANSWER>
+
+<ANSWER>
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTM
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+</ANSWER>
+
+<ANSWER>
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTM
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Using Bidirectional LSTM
+- task: Feature Representations
+- task: For Dependency Parsing
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTM
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTM
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTMs
+- task: For Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTMs
+- task: For Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTMs
+- task: As
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTMs
+- task: As
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTMs
+- task: For
+- task: Creating
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTMs
+- task: For
+- task: Creating
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTMs
+- task: To
+- task: Generate
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTMs
+- task: To
+- task: Generate
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTMs
+- task: For
+- task: Generating
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTMs
+- task: For
+- task: Generating
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTMs
+- task: To
+- task: Generate
+- task: Accurate
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTMs
+- task: To
+- task: Generate
+- task: Accurate
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bidirectional LSTMs
+- task: For
+- task: Generating
+- task: Accurate
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: With
+- task: Bidirectional LSTMs
+- task: For
+- task: Generating
+- task: Accurate
+- task: Feature Representations
+</ANSWER>
+
+<ANSWER>
+- task: Simple and
+- task: Accurate
+- task: Dependency Parsing
+- task: Using
+- task: Bid"
+3daa086acd367dc971a2dc1382caba2031294233,"Holistic , Instance - level Human Parsing",1,"['Task', 'Method']","Holistic , Instance - level Human Parsing","{'Task': ['Holistic , Instance - level Human Parsing']}","<ANSWER>
+{'task': ['Holistic', 'Instance-level', 'Human Parsing']}
+</ANSWER>","<ANSWER>
+- task: Holistic Human Parsing
+- task: Instance-level Human Parsing
+</ANSWER>"
+408e8eecc14c5cc60bbdfc486ba7a7fc97031788,Discriminative Unsupervised Feature Learning with Convolutional Neural Networks Current methods for training convolutional neural networks depend on large amounts of labeled samples for supervised training .,1,"['Task', 'Method']",Discriminative Unsupervised Feature Learning with Convolutional Neural Networks Current methods for training convolutional neural networks depend on large amounts of labeled samples for supervised training .,{'Task': ['supervised training']},"<ANSWER>
+{'task': ['training', 'supervised training']}
+</ANSWER>","<ANSWER>
+- task: Unsupervised Feature Learning
+- task: Training Convolutional Neural Networks
+- task: Discriminative Learning
+</ANSWER>
+
+The current methods for training Convolutional Neural Networks involve unsupervised feature learning and discriminative learning, but they depend on large amounts of labeled samples for supervised training."
+4365eb43a635bc6431dfaf3af1f7bf7bf55522cc,document : CoupleNet : Coupling Global Structure with Local Parts for Object Detection,1,"['Task', 'Method']",document : CoupleNet : Coupling Global Structure with Local Parts for Object Detection,{'Task': ['Object Detection']},"<ANSWER>
+{'task': ['Coupling Global Structure with Local Parts', 'Object Detection']}
+</ANSWER>","<ANSWER>
+- task: Object Detection
+- task: Global Structure Analysis
+- task: Local Parts Analysis
+- task: Coupling
+</ANSWER>"
+436b07bebaa1d1f05ef85415e10374048d25334d,OUTRAGEOUSLY LARGE NEURAL NETWORKS :,1,"['Task', 'Method']",OUTRAGEOUSLY LARGE NEURAL NETWORKS :,{'Task': []},"<ANSWER>
+{'task': ['Building Outrageously Large Neural Networks']}
+</ANSWER>","<ANSWER>
+- task: Researching Outrageously Large Neural Networks
+<ANSWER>"
+44078d0daed8b13114cffb15b368acc467f96351,document : Triplet Probabilistic Embedding for Face Verification and Clustering,1,"['Task', 'Method']",document : Triplet Probabilistic Embedding for Face Verification and Clustering,"{'Task': ['Face Verification', 'Clustering']}","<ANSWER>
+{'task': ['Face Verification', 'Clustering']}
+</ANSWER>","<ANSWER>
+- task: Face Verification
+- task: Face Clustering
+</ANSWER>"
+45429c281e30f9e87ebcd1ae42e0656d2ead24d1,document : High - Resolution Image Synthesis and Semantic Manipulation with Conditional GANs,1,"['Task', 'Method']",document : High - Resolution Image Synthesis and Semantic Manipulation with Conditional GANs,"{'Task': ['High - Resolution Image Synthesis', 'Semantic Manipulation']}","<ANSWER>
+{'task': ['High-Resolution Image Synthesis', 'Semantic Manipulation', 'Conditional GANs']}
+</ANSWER>","<ANSWER>
+- task: High-Resolution Image Synthesis
+- task: Semantic Manipulation
+- task: Conditional Generative Adversarial Networks (GANs)
+</ANSWER>"
+455da02e5048dffb51fb6ab5eb8aeca5926c9d9a,document : Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition,1,"['Task', 'Method']",document : Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition,{'Task': ['Visual Recognition']},"<ANSWER>
+{'task': ['Visual Recognition']}
+</ANSWER>","<ANSWER>
+tasks:
+- task: Visual Recognition
+- task: Deep Convolutional Networks
+- task: Spatial Pyramid Pooling
+</ANSWER>"

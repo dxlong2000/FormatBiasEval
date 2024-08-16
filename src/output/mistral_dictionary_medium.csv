@@ -1,0 +1,561 @@
+doc_id,document,top_k,category,input_data,answer,python_output,yaml_output
+02567fd428a675ca91a0c6786f47f3e35881bcbd,document : Deep Label Distribution Learning With Label Ambiguity Convolutional Neural Networks ( ConvNets ) have achieved excellent recognition performance in various visual recognition tasks . A large labeled training set is one of the most important factors for its success .,1,"['Task', 'Method']",document : Deep Label Distribution Learning With Label Ambiguity Convolutional Neural Networks ( ConvNets ) have achieved excellent recognition performance in various visual recognition tasks . A large labeled training set is one of the most important factors for its success .,"{'Task': ['Label Ambiguity', 'recognition', 'visual recognition tasks'], 'Method': ['Deep Label Distribution Learning', 'Convolutional Neural Networks', 'ConvNets']}","{'Task': ['visual recognition tasks'], 'Method': ['Deep Label Distribution Learning', 'Convolutional Neural Networks (ConvNets)']}","```yaml
+Tasks:
+- Visual recognition
+
+Methods:
+- Deep Label Distribution Learning
+- Convolutional Neural Networks (ConvNets)
+- Use of large labeled training sets
+```"
+02b3d1d162080d9aefd3fc30a0bcc9a843073b5d,"In this work we explore recent advances in Recurrent Neural Networks for large scale Language Modeling , a task central to language understanding . We extend current models to deal with two key challenges present in this task : corpora and vocabulary sizes , and complex , long term structure of language . We perform an exhaustive study on techniques such as character Convolutional Neural Networks or Long - Short Term Memory , on the One Billion Word Benchmark .",1,"['Task', 'Method']","In this work we explore recent advances in Recurrent Neural Networks for large scale Language Modeling , a task central to language understanding . We extend current models to deal with two key challenges present in this task : corpora and vocabulary sizes , and complex , long term structure of language . We perform an exhaustive study on techniques such as character Convolutional Neural Networks or Long - Short Term Memory , on the One Billion Word Benchmark .","{'Task': ['language understanding', 'Language Modeling'], 'Method': ['character Convolutional Neural Networks', 'Recurrent Neural Networks', 'Long - Short Term Memory']}","{'Task': ['large scale Language Modeling', 'language understanding'], 'Method': ['Recurrent Neural Networks', 'character Convolutional Neural Networks', 'Long - Short Term Memory']}","tasks:
+- language_modeling
+- large_scale_language_modeling
+methods:
+- recurrent_neural_networks
+- character_convolutional_neural_networks
+- long_short_term_memory
+challenges:
+- corpora_sizes
+- vocabulary_sizes
+- complex_long_term_structure_of_language
+benchmarks:
+- one_billion_word_benchmark"
+0398552184f80db111e9c28bf533b395f233ac00,Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self - paced Curriculum Learning section : Abstract Weakly - supervised object detection ( WOD ) is a challenging problems in computer vision .,1,"['Task', 'Method']",Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self - paced Curriculum Learning section : Abstract Weakly - supervised object detection ( WOD ) is a challenging problems in computer vision .,"{'Task': ['WOD', 'Weakly Supervised Object Detection', 'Bridging Saliency Detection', 'Weakly - supervised object detection', 'computer vision'], 'Method': ['Self - paced Curriculum Learning']}","Based on the given document abstract, here's the Python dictionary with the requested keys and values:
+
+```python
+{'Task': ['weakly-supervised object detection'], 'Method': ['self-paced curriculum learning']}
+```","task:
+- name: Weakly-supervised object detection (WOD)
+
+method:
+- name: Self-paced Curriculum Learning"
+05d2700846c0323f79c1344aca5333994c7c03a5,"document : The IBM 2016 English Conversational Telephone Speech Recognition System We describe a collection of acoustic and language modeling techniques that lowered the word error rate of our English conversational telephone LVCSR system to a record 6.6 % on the Switchboard subset of the Hub5 2000 evaluation testset . On the acoustic side , we use a score fusion of three strong models : recurrent nets with maxout activations , very deep convolutional nets with 3x3 kernels , and bidirectional long short - term memory nets which operate on FMLLR and i - vector features .",1,"['Task', 'Method']","document : The IBM 2016 English Conversational Telephone Speech Recognition System We describe a collection of acoustic and language modeling techniques that lowered the word error rate of our English conversational telephone LVCSR system to a record 6.6 % on the Switchboard subset of the Hub5 2000 evaluation testset . On the acoustic side , we use a score fusion of three strong models : recurrent nets with maxout activations , very deep convolutional nets with 3x3 kernels , and bidirectional long short - term memory nets which operate on FMLLR and i - vector features .","{'Task': ['IBM 2016 English Conversational Telephone Speech Recognition System'], 'Method': ['3x3 kernels', 'maxout activations', 'strong models', 'recurrent nets', 'bidirectional long short - term memory nets', 'deep convolutional nets', 'acoustic and language modeling techniques', 'English conversational telephone LVCSR system']}","{'Task': ['lowering word error rate of English conversational telephone LVCSR system', 'evaluation testset on Switchboard subset of Hub5 2000'], 'Method': ['score fusion of three strong models', 'recurrent nets with maxout activations', 'very deep convolutional nets with 3x3 kernels', 'bidirectional long short-term memory nets which operate on FMLLR and i-vector features']}","tasks:
+- name: Lowering word error rate of English conversational telephone LVCSR system
+  set: IBM 2016 English Conversational Telephone Speech Recognition System
+
+methods:
+- name: Score fusion of three strong acoustic models
+  techniques:
+  - Recurrent nets with maxout activations
+  - Very deep convolutional nets with 3x3 kernels
+  - Bidirectional long short-term memory nets
+  set: IBM 2016 English Conversational Telephone Speech Recognition System
+
+- name: Use of FMLLR and i-vector features for bidirectional long short-term memory nets
+  set: IBM 2016 English Conversational Telephone Speech Recognition System
+
+- name: Recurrent nets with maxout activations
+  set: IBM 2016 English Conversational Telephone Speech Recognition System
+
+- name: Very deep convolutional nets with 3x3 kernels
+  set: IBM 2016 English Conversational Telephone Speech Recognition System
+
+- name: Bidirectional long short-term memory nets
+  set: IBM 2016 English Conversational Telephone Speech Recognition System"
+0626908dd710b91aece1a81f4ca0635f23fc47f3,"document : Rethinking the Inception Architecture for Computer Vision Convolutional networks are at the core of most state - of - the - art computer vision solutions for a wide variety of tasks . Since 2014 very deep convolutional networks started to become mainstream , yielding substantial gains in various benchmarks .",1,"['Task', 'Method']","document : Rethinking the Inception Architecture for Computer Vision Convolutional networks are at the core of most state - of - the - art computer vision solutions for a wide variety of tasks . Since 2014 very deep convolutional networks started to become mainstream , yielding substantial gains in various benchmarks .","{'Task': ['Computer Vision'], 'Method': ['computer vision solutions', 'deep convolutional networks', 'Inception Architecture', 'Convolutional networks']}","{'Task': ['state-of-the-art computer vision solutions', 'various tasks'], 'Method': ['very deep convolutional networks']}","tasks:
+- computer_vision
+- object_detection
+- image_classification
+- benchmarking
+
+methods:
+- convolutional_neural_networks
+- very_deep_convolutional_networks"
+0678a8abea82793993cd89383319da75f6dc4be3,"document : ProNet : Learning to Propose Object - specific Boxes for Cascaded Neural Networks This paper aims to classify and locate objects accurately and efficiently , without using bounding box annotations . It is challenging as objects in the wild could appear at arbitrary locations and in different scales .",1,"['Task', 'Method']","document : ProNet : Learning to Propose Object - specific Boxes for Cascaded Neural Networks This paper aims to classify and locate objects accurately and efficiently , without using bounding box annotations . It is challenging as objects in the wild could appear at arbitrary locations and in different scales .","{'Task': [], 'Method': ['ProNet', 'Learning to Propose Object - specific Boxes for Cascaded Neural Networks']}","{'Task': ['classifying and locating objects accurately and efficiently', 'without using bounding box annotations'],
+ 'Method': ['Learning to Propose Object-specific Boxes for Cascaded Neural Networks']}","task: Object classification and localization
+method: Cascaded Neural Networks (without using bounding box annotations)"
+081531984770a74e87dbd68907061b4b0f3631bf,"document : Real - Time Video Super - Resolution with Spatio - Temporal Networks and Motion Compensation Convolutional neural networks have enabled accurate image super - resolution in real - time . However , recent attempts to benefit from temporal correlations in video super - resolution have been limited to naive or inefficient architectures .",1,"['Task', 'Method']","document : Real - Time Video Super - Resolution with Spatio - Temporal Networks and Motion Compensation Convolutional neural networks have enabled accurate image super - resolution in real - time . However , recent attempts to benefit from temporal correlations in video super - resolution have been limited to naive or inefficient architectures .","{'Task': ['Real - Time Video Super - Resolution', 'video super - resolution', 'image super - resolution in real - time'], 'Method': ['Convolutional neural networks', 'Motion Compensation', 'Spatio - Temporal Networks']}","{'Task': ['Real-time Video Super-Resolution'], 'Method': ['Spatio-Temporal Networks', 'Motion Compensation Convolutional neural networks']}","task: Real-Time Video Super-Resolution
+methods:
+- Spatio-Temporal Networks
+- Convolutional neural networks
+- Motion Compensation
+- Naive architectures
+- Inefficient architectures"
+0834e74304b547c9354b6d7da6fa78ef47a48fa8,"document : LINE : Large - scale Information Network Embedding This paper studies the problem of embedding very large information networks into low - dimensional vector spaces , which is useful in many tasks such as visualization , node classification , and link prediction . Most existing graph embedding methods do not scale for real world information networks which usually contain millions of nodes .",1,"['Task', 'Method']","document : LINE : Large - scale Information Network Embedding This paper studies the problem of embedding very large information networks into low - dimensional vector spaces , which is useful in many tasks such as visualization , node classification , and link prediction . Most existing graph embedding methods do not scale for real world information networks which usually contain millions of nodes .","{'Task': ['low - dimensional vector spaces', 'link prediction', 'node classification', 'real world information networks', 'embedding very large information networks', 'visualization'], 'Method': ['Large - scale Information Network Embedding', 'LINE', 'graph embedding methods']}","{'Task': ['visualization', 'node classification', 'link prediction'], 'Method': ['Large-scale Information Network Embedding', 'graph embedding']}","tasks:
+- node classification
+- visualization
+- link prediction
+
+methods:
+- graph embedding"
+0a3381f0432c5cfe491c718349d7a44e5814592c,"document : Compositional Sequence Labeling Models for Error Detection in Learner Writing In this paper , we present the first experiments using neural network models for the task of error detection in learner writing . We perform a systematic comparison of alternative compositional architectures and propose a framework for error detection based on bidirectional LSTMs .",1,"['Task', 'Method']","document : Compositional Sequence Labeling Models for Error Detection in Learner Writing In this paper , we present the first experiments using neural network models for the task of error detection in learner writing . We perform a systematic comparison of alternative compositional architectures and propose a framework for error detection based on bidirectional LSTMs .","{'Task': ['Learner Writing', 'Error Detection', 'error detection', 'learner writing'], 'Method': ['Compositional Sequence Labeling Models', 'LSTMs', 'neural network models', 'compositional architectures']}","{'Task': ['error detection in learner writing'], 'Method': ['neural network models', 'compositional architectures', 'bidirectional LSTMs']}","task: Error Detection in Learner Writing
+methods:
+- Neural Network Models
+- Compositional Architectures
+- Bidirectional LSTMs"
+0a6c36de8726b6feaab586046ddc1d1a008f44f9,document : Filtered Channel Features for Pedestrian Detection This paper starts from the observation that multiple top performing pedestrian detectors can be modelled by using an intermediate layer filtering low - level features in combination with a boosted decision forest . Based on this observation we propose a unifying framework and experimentally explore different filter families .,1,"['Task', 'Method']",document : Filtered Channel Features for Pedestrian Detection This paper starts from the observation that multiple top performing pedestrian detectors can be modelled by using an intermediate layer filtering low - level features in combination with a boosted decision forest . Based on this observation we propose a unifying framework and experimentally explore different filter families .,"{'Task': ['Pedestrian Detection'], 'Method': ['boosted decision forest', 'unifying framework', 'Filtered Channel Features', 'top performing pedestrian detectors', 'intermediate layer filtering low - level features', 'filter families']}","{'Task': ['pedestrian detection'], 'Method': ['intermediate layer filtering', 'low-level features', 'boosted decision forest']}","task: Pedestrian Detection
+methods:
+- Intermediate layer filtering
+- Low-level feature filtering
+- Boosted decision forest
+- Unifying framework
+- Experimentally exploring different filter families"
+0c47cad9729c38d9db1f75491b1ee4bd883a5d4e,"document : Semi - Supervised Sequence Modeling with Cross - View Training kevclark@cs.stanford.edu , thangluong@google.com , manning@cs.stanford.edu , qvl@google.com Unsupervised representation learning algorithms such as word2vec and ELMo improve the accuracy of many supervised NLP models , mainly because they can take advantage of large amounts of unlabeled text . However , the supervised models only learn from task - specific labeled data during the main training phase .",1,"['Task', 'Method']","document : Semi - Supervised Sequence Modeling with Cross - View Training kevclark@cs.stanford.edu , thangluong@google.com , manning@cs.stanford.edu , qvl@google.com Unsupervised representation learning algorithms such as word2vec and ELMo improve the accuracy of many supervised NLP models , mainly because they can take advantage of large amounts of unlabeled text . However , the supervised models only learn from task - specific labeled data during the main training phase .","{'Task': [], 'Method': ['Semi - Supervised Sequence Modeling', 'Unsupervised representation learning algorithms', 'supervised models', 'Cross - View Training', 'supervised NLP models', 'word2vec', 'ELMo']}","Based on the given document, the following entities reflecting the tasks and methods can be extracted:
+
+{'Task': ['supervised NLP models'], 'Method': ['unsupervised representation learning algorithms', 'word2vec', 'ELMo']}","```yaml
+- Task: Sequence Modeling
+  Method: Supervised Learning
+  Description: Learning from task-specific labeled data during the main training phase.
+
+- Task: Sequence Modeling
+  Method: Unsupervised Representation Learning
+  Description: Improving the accuracy of supervised NLP models by taking advantage of large amounts of unlabeled text using algorithms like word2vec and ELMo.
+```"
+0dc9eb7d17f2def56ad930945f2521653f04c3fa,Skip - gram Language Modeling Using Sparse Non - negative Matrix Probability Estimation section : Abstract We present a novel family of language model,1,"['Task', 'Method']",Skip - gram Language Modeling Using Sparse Non - negative Matrix Probability Estimation section : Abstract We present a novel family of language model,"{'Task': ['Skip - gram Language Modeling'], 'Method': ['Sparse Non - negative Matrix Probability Estimation', 'language model']}","{'Task': ['language modeling'], 'Method': ['Skip-gram', 'Sparse Non-negative Matrix Probability Estimation']}","task: Language Modeling
+methods:
+- Sparse Non-negative Matrix Probability Estimation
+- Skip-gram Modeling"
+107010b7f2abe3c0c9df62bcef35eb77f6fc76df,"Domain - Adversarial Training of Neural Networks section : Abstract We introduce a new representation learning approach for domain adaptation , in which data at training and test time come from similar but different distributions .",1,"['Task', 'Method']","Domain - Adversarial Training of Neural Networks section : Abstract We introduce a new representation learning approach for domain adaptation , in which data at training and test time come from similar but different distributions .","{'Task': [], 'Method': ['Domain - Adversarial Training of Neural Networks', 'representation learning approach', 'domain adaptation']}","{'Task': ['domain adaptation'], 'Method': ['adversarial training of neural networks', 'representation learning approach']}","task: Domain Adaptation
+method: Representation Learning Approach
+method_details:
+  name: Introduced Approach
+  description: New method for domain adaptation when data at training and test time come from similar but different distributions."
+1130d8fdd931225c2d7563c3808367726cfa1c3a,"document : PixelGAN Autoencoders In this paper , we describe the ‘ ‘ PixelGAN autoencoder ’ ’ , a generative autoencoder in which the generative path is a convolutional autoregressive neural network on pixels ( PixelCNN ) that is conditioned on a latent code , and the recognition path uses a generative adversarial network ( GAN ) to impose a prior distribution on the latent code . We show that different priors result in different decompositions of information between the latent code and the autoregressive decoder .",1,"['Task', 'Method']","document : PixelGAN Autoencoders In this paper , we describe the ‘ ‘ PixelGAN autoencoder ’ ’ , a generative autoencoder in which the generative path is a convolutional autoregressive neural network on pixels ( PixelCNN ) that is conditioned on a latent code , and the recognition path uses a generative adversarial network ( GAN ) to impose a prior distribution on the latent code . We show that different priors result in different decompositions of information between the latent code and the autoregressive decoder .","{'Task': [], 'Method': ['recognition path', 'autoregressive decoder', 'GAN', 'convolutional autoregressive neural network on pixels', 'autoencoder', 'PixelGAN Autoencoders', 'generative path', 'PixelCNN', 'generative adversarial network', 'generative autoencoder']}","{'Task': ['generative autoencoder', 'training'], 'Method': ['PixelGAN autoencoder', 'convolutional autoregressive neural network (PixelCNN)', 'latent code conditioning', 'generative adversarial network (GAN)', 'imposing a prior distribution']}","task:
+- Generative model training
+- Information decomposition analysis
+
+method:
+- PixelGAN autoencoder
+- Convolutional autoregressive neural network (PixelCNN)
+- Latent code conditioning
+- Generative adversarial network (GAN)
+- Prior distribution imposition
+- Information decomposition between latent code and autoregressive decoder."
+11356cd6bb0f2776a88cd584ff108470414c6594,"document : Submanifold Sparse Convolutional Networks Convolutional network are the de - facto standard for analysing spatio - temporal data such as images , videos , 3D shapes , etc . Whilst some of this data is naturally dense ( for instance , photos ) , many other data sources are inherently sparse .",1,"['Task', 'Method']","document : Submanifold Sparse Convolutional Networks Convolutional network are the de - facto standard for analysing spatio - temporal data such as images , videos , 3D shapes , etc . Whilst some of this data is naturally dense ( for instance , photos ) , many other data sources are inherently sparse .","{'Task': [], 'Method': ['Submanifold Sparse Convolutional Networks', 'Convolutional network']}","Based on the given document, the following entities reflecting the tasks and methods can be identified:
+
+{'Task': ['analyzing spatio-temporal data', 'processing images', 'processing videos', 'processing 3D shapes'], 'Method': ['Convolutional network']}","task: Analyzing spatio-temporal data
+methods:
+- Convolutional networks
+- Submanifold Sparse Convolutional Networks
+task: Handling sparse data in analysis of spatio-temporal data
+method: Submanifold Sparse Convolutional Networks"
+11da0c54ba904a1cb31a09d10da55f73e8825c61,"document : Natural Language Inference by Tree - Based Convolution and Heuristic Matching In this paper , we propose the TBCNN - pair model to recognize entailment and contradiction between two sentences . In our model , a tree - based convolutional neural network ( TBCNN ) captures sentence - level semantics ; then heuristic matching layers like concatenation , element - wise product / difference combine the information in individual sentences .",1,"['Task', 'Method']","document : Natural Language Inference by Tree - Based Convolution and Heuristic Matching In this paper , we propose the TBCNN - pair model to recognize entailment and contradiction between two sentences . In our model , a tree - based convolutional neural network ( TBCNN ) captures sentence - level semantics ; then heuristic matching layers like concatenation , element - wise product / difference combine the information in individual sentences .","{'Task': ['recognize entailment and contradiction', 'Natural Language Inference'], 'Method': ['concatenation', 'Heuristic Matching', 'TBCNN - pair model', 'Tree - Based Convolution', 'TBCNN', 'tree - based convolutional neural network', 'heuristic matching layers']}","{'Task': ['recognize entailment and contradiction between two sentences'], 'Method': ['Tree-based convolutional neural network (TBCNN)', 'heuristic matching layers', 'concatenation', 'element-wise product / difference']}","task: Natural Language Inference
+methods:
+- Tree-based Convolution Neural Network (TBCNN)
+- Heuristic Matching
+  - Concatenation
+  - Element-wise Product / Difference"
+1235dd37312cb20aced0e97d953f6379d8a0c7d4,"document : Grounded Textual Entailment Capturing semantic relations between sentences , such as entailment , is a long - standing challenge for computational semantics . Logic - based models analyse entailment in terms of possible worlds ( interpretations , or situations ) where a premise P entails a hypothesis H iff in all worlds where P is true , H is also true .",1,"['Task', 'Method']","document : Grounded Textual Entailment Capturing semantic relations between sentences , such as entailment , is a long - standing challenge for computational semantics . Logic - based models analyse entailment in terms of possible worlds ( interpretations , or situations ) where a premise P entails a hypothesis H iff in all worlds where P is true , H is also true .","{'Task': ['Grounded Textual Entailment', 'computational semantics', 'Capturing semantic relations between sentences'], 'Method': ['Logic - based models']}","{'Task': ['Grounded Textual Entailment', 'Capturing semantic relations between sentences', 'Determining if a premise entails a hypothesis'],
+ 'Method': ['Logic-based models', 'Analyzing entailment in terms of possible worlds', 'Using interpretations or situations']}","task: Grounded Textual Entailment
+method: Logic-based models
+task: Analyzing semantic relations between sentences
+task: Determining entailment
+method: Analyzing in terms of possible worlds
+method: Using interpretations or situations
+
+```yaml
+Tasks:
+- Grounded Textual Entailment
+
+Methods:
+- Logic-based models
+- Analyzing semantic relations between sentences
+- Determining entailment
+- Analyzing in terms of possible worlds
+- Using interpretations or situations
+```"
+14318685b5959b51d0f1e3db34643eb2855dc6d9,"document : Going deeper with convolutions We propose a deep convolutional neural network architecture codenamed âInceptionâ , which was responsible for setting the new state of the art for classification and detection in the ImageNet Large - Scale Visual Recognition Challenge 2014 ( ILSVRCâ14 ) . The main hallmark of this architecture is the improved utilization of the computing resources inside the network .",1,"['Task', 'Method']","document : Going deeper with convolutions We propose a deep convolutional neural network architecture codenamed âInceptionâ , which was responsible for setting the new state of the art for classification and detection in the ImageNet Large - Scale Visual Recognition Challenge 2014 ( ILSVRCâ14 ) . The main hallmark of this architecture is the improved utilization of the computing resources inside the network .","{'Task': ['classification', 'detection', 'ImageNet Large - Scale Visual Recognition Challenge 2014', 'ILSVRCâ\x80\x9914'], 'Method': ['deep convolutional neural network architecture codenamed â\x80\x9cInceptionâ\x80\x9d', 'convolutions']}","{'Task': ['ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC''14)'], 'Method': ['deep convolutional neural network architecture', 'codenamed ""Inception""']}","```yaml
+Task:
+- ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC'14)
+- Classification
+- Detection
+
+Method:
+- Proposed deep convolutional neural network architecture named ""Inception""
+- Improved utilization of computing resources inside the network
+```"
+16051bbe3a7f7c77a952ebf76722ea655e8906ca,"Image Super - resolution via Feature - augmented Random Forest section : Abstract - Recent random - forest ( RF )- based image super - resolution approaches inherit some properties from dictionary - learning - based algorithms , but the effectiveness of the properties in RF is overlooked in the literature .",1,"['Task', 'Method']","Image Super - resolution via Feature - augmented Random Forest section : Abstract - Recent random - forest ( RF )- based image super - resolution approaches inherit some properties from dictionary - learning - based algorithms , but the effectiveness of the properties in RF is overlooked in the literature .","{'Task': ['Image Super - resolution'], 'Method': ['Feature - augmented Random Forest', 'Recent random - forest', 'dictionary - learning - based algorithms', 'RF']}","Based on the given document, the following entities reflecting the tasks and methods can be identified:
+
+{'Task': ['image super- resolution'], 'Method': ['random forest', 'feature augmented random forest', 'dictionary learning-based algorithms']}","task: Image Super-resolution
+methods:
+- Random Forest
+- Feature Augmentation
+- Dictionary Learning
+- RF-based Image Super-resolution
+- Property Inheritance
+- Effectiveness Evaluation
+- Literature Overlook
+- RF-based Algorithms"
+160563abbd75265b19afc8b4169bab9e1eb33d97,"document : Massively Multilingual Sentence Embeddings for Zero - Shot Cross - Lingual Transfer and Beyond We introduce an architecture to learn joint multilingual sentence representations for 93 languages , belonging to more than 30 different language families and written in 28 different scripts . Our system uses a single BiLSTM encoder with a shared BPE vocabulary for all languages , which is coupled with an auxiliary decoder and trained on publicly available parallel corpora .",1,"['Task', 'Method']","document : Massively Multilingual Sentence Embeddings for Zero - Shot Cross - Lingual Transfer and Beyond We introduce an architecture to learn joint multilingual sentence representations for 93 languages , belonging to more than 30 different language families and written in 28 different scripts . Our system uses a single BiLSTM encoder with a shared BPE vocabulary for all languages , which is coupled with an auxiliary decoder and trained on publicly available parallel corpora .","{'Task': ['Massively Multilingual Sentence Embeddings', 'sentence representations', 'Zero - Shot Cross - Lingual Transfer'], 'Method': ['BPE', 'auxiliary decoder', 'BiLSTM encoder']}","{'Task': ['Massively Multilingual Sentence Embeddings', 'Zero-Shot Cross-Lingual Transfer', 'Beyond'], 'Method': ['Learning joint multilingual sentence representations', 'Using a single BiLSTM encoder with a shared BPE vocabulary', 'Coupled with an auxiliary decoder', 'Trained on publicly available parallel corpora']}","task: Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond
+methods:
+- Architecture: An architecture to learn joint multilingual sentence representations
+- Model: Single BiLSTM encoder with a shared BPE vocabulary
+- Training: Trained on publicly available parallel corpora
+- Technique: Zero-Shot Cross-Lingual Transfer
+- Component: Auxiliary decoder coupled with the encoder"
+175f74a09241b6cb5101a2a09978095720db7d5f,"document : Image Super - Resolution via Dual - State Recurrent Networks Advances in image super - resolution ( SR ) have recently benefited significantly from rapid developments in deep neural networks . Inspired by these recent discoveries , we note that many state - of - the - art deep SR architectures can be reformulated as a single - state recurrent neural network ( RNN ) with finite unfoldings .",1,"['Task', 'Method']","document : Image Super - Resolution via Dual - State Recurrent Networks Advances in image super - resolution ( SR ) have recently benefited significantly from rapid developments in deep neural networks . Inspired by these recent discoveries , we note that many state - of - the - art deep SR architectures can be reformulated as a single - state recurrent neural network ( RNN ) with finite unfoldings .","{'Task': ['Image Super - Resolution', 'image super - resolution', 'SR'], 'Method': ['finite unfoldings', 'deep neural networks', 'single - state recurrent neural network', 'Dual - State Recurrent Networks', 'RNN']}","{'Task': ['image super-resolution'], 'Method': ['single-state recurrent neural network (RNN)']}","task: Image Super-Resolution
+methods:
+- Single-State Recurrent Neural Network (RNN)
+- Finite Unfoldings of Deep SR Architectures"
+1778e32c18bd611169e64c1805a51abff341ca53,"document : Natural Language Inference over Interaction Space Natural Language Inference ( NLI ) task requires an agent to determine the logical relationship between a natural language premise and a natural language hypothesis . We introduce Interactive Inference Network ( IIN ) , a novel class of neural network architectures that is able to achieve high - level understanding of the sentence pair by hierarchically extracting semantic features from interaction space .",1,"['Task', 'Method']","document : Natural Language Inference over Interaction Space Natural Language Inference ( NLI ) task requires an agent to determine the logical relationship between a natural language premise and a natural language hypothesis . We introduce Interactive Inference Network ( IIN ) , a novel class of neural network architectures that is able to achieve high - level understanding of the sentence pair by hierarchically extracting semantic features from interaction space .","{'Task': ['Interaction Space', 'NLI', 'Natural Language Inference'], 'Method': ['neural network architectures', 'Interactive Inference Network', 'IIN )']}","{'Task': ['Natural Language Inference'], 'Method': ['Interactive Inference Network', 'Hierarchically extracting semantic features from interaction space']}","```yaml
+Task:
+- Natural Language Inference (NLI)
+
+Method:
+- Interactive Inference Network (IIN)
+- Neural network architectures
+- Hierarchically extracting semantic features
+- Interaction space
+```"
+178275dbdcfa267e41a9d5efe386ee5874c6d23f,"document : Fraternal Dropout Recurrent neural networks ( RNNs ) form an important class of architectures among neural networks useful for language modeling and sequential prediction . However , optimizing RNNs is known to be harder compared to feed - forward neural networks .",1,"['Task', 'Method']","document : Fraternal Dropout Recurrent neural networks ( RNNs ) form an important class of architectures among neural networks useful for language modeling and sequential prediction . However , optimizing RNNs is known to be harder compared to feed - forward neural networks .","{'Task': ['optimizing RNNs', 'language modeling', 'sequential prediction'], 'Method': ['neural networks', 'RNNs', 'Recurrent neural networks', 'feed - forward neural networks']}","{'Task': ['language modeling', 'sequential prediction'], 'Method': ['optimizing RNNs']}","task: Language modeling
+task: Sequential prediction
+method: Fraternal Dropout
+method: Recurrent Neural Networks (RNNs)
+method: Optimization (of RNNs)"
+178631e0f0e624b1607c7a7a2507ed30d4e83a42,document : Speech Recognition with Deep Recurrent Neural Networks Recurrent neural networks ( RNNs ) are a powerful model for sequential data . End - to - end training methods such as Connectionist Temporal Classification make it possible to train RNNs for sequence labelling problems where the input - output alignment is unknown .,1,"['Task', 'Method']",document : Speech Recognition with Deep Recurrent Neural Networks Recurrent neural networks ( RNNs ) are a powerful model for sequential data . End - to - end training methods such as Connectionist Temporal Classification make it possible to train RNNs for sequence labelling problems where the input - output alignment is unknown .,"{'Task': ['sequence labelling problems', 'Speech Recognition'], 'Method': ['Connectionist Temporal Classification', 'Recurrent neural networks', 'RNNs', 'end training methods', 'Deep Recurrent Neural Networks']}","{'Task': ['sequence labelling'], 'Method': ['End-to-end training', 'Connectionist Temporal Classification', 'Recurrent neural networks']}","```yaml
+Tasks:
+- Sequence labelling
+
+Methods:
+- End-to-end training
+- Connectionist Temporal Classification
+- Recurrent neural networks (RNNs)
+```"
+18168aea48a22f6fe2fe407c0ff70083cba225a7,"document : Image Restoration Using Very Deep Convolutional Encoder - Decoder Networks with Symmetric Skip Connections In this paper , we propose a very deep fully convolutional encoding - decoding framework for image restoration such as denoising and super - resolution . The network is composed of multiple layers of convolution and de - convolution operators , learning end - to - end mappings from corrupted images to the original ones .",1,"['Task', 'Method']","document : Image Restoration Using Very Deep Convolutional Encoder - Decoder Networks with Symmetric Skip Connections In this paper , we propose a very deep fully convolutional encoding - decoding framework for image restoration such as denoising and super - resolution . The network is composed of multiple layers of convolution and de - convolution operators , learning end - to - end mappings from corrupted images to the original ones .","{'Task': ['image restoration', 'super - resolution', 'denoising', 'Image Restoration'], 'Method': ['Deep Convolutional Encoder - Decoder Networks', 'Symmetric Skip Connections', 'layers of convolution and de - convolution operators', 'deep fully convolutional encoding - decoding framework']}","{'Task': ['image restoration', 'denoising', 'super-resolution'], 'Method': ['very deep fully convolutional encoding-decoding framework', 'multiple layers of convolution and de-convolution operators', 'learning end-to-end mappings', 'symmetric skip connections']}","tasks:
+- denoising
+- super-resolution
+methods:
+- ""very deep fully convolutional encoding-decoding framework""
+- ""multiple layers of convolution and de-convolution operators""
+- ""learning end-to-end mappings from corrupted images to the original ones""
+- ""using Very Deep Convolutional Encoder-Decoder Networks with Symmetric Skip Connections"""
+193089d56758ab88391d846edd08d359b1f9a863,"document : A Discriminatively Learned CNN Embedding for Person Re - identification In this paper , we revisit two popular convolutional neural networks ( CNN ) in person re - identification ( re - ID ) , i.e. , verification and identification models . The two models have their respective advantages and limitations due to different loss functions .",1,"['Task', 'Method']","document : A Discriminatively Learned CNN Embedding for Person Re - identification In this paper , we revisit two popular convolutional neural networks ( CNN ) in person re - identification ( re - ID ) , i.e. , verification and identification models . The two models have their respective advantages and limitations due to different loss functions .","{'Task': ['verification', 'Person Re - identification', 'identification models', 'person re - identification', 're - ID'], 'Method': ['Discriminatively Learned CNN Embedding', 'CNN', 'convolutional neural networks']}","{'Task': ['person re-identification', 'verification', 'identification'], 'Method': ['convolutional neural networks (CNN)', 're-ID models']}","```yaml
+Tasks:
+- Person_Reidentification
+- Person_Reidentification_Verification
+- Person_Reidentification_Identification
+
+Methods:
+- Discriminatively_Learned_CNN
+- Convolutional_Neural_Networks
+- Verification_Model
+- Identification_Model
+```"
+193b518bc3025804c6d587c74cbc154d91478417,"document : Learning to Adapt Structured Output Space for Semantic Segmentation Convolutional neural network - based approaches for semantic segmentation rely on supervision with pixel - level ground truth , but may not generalize well to unseen image domains . As the labeling process is tedious and labor intensive , developing algorithms that can adapt source ground truth labels to the target domain is of great interest .",1,"['Task', 'Method']","document : Learning to Adapt Structured Output Space for Semantic Segmentation Convolutional neural network - based approaches for semantic segmentation rely on supervision with pixel - level ground truth , but may not generalize well to unseen image domains . As the labeling process is tedious and labor intensive , developing algorithms that can adapt source ground truth labels to the target domain is of great interest .","{'Task': ['semantic segmentation', 'Semantic Segmentation', 'labeling process'], 'Method': ['Convolutional neural network - based approaches']}","{'Task': ['semantic segmentation', 'adapting source ground truth labels to the target domain'], 'Method': ['convolutional neural network', 'supervision with pixel-level ground truth']}","task: Adapting source ground truth labels to target domain for semantic segmentation
+methods:
+- Convolutional neural network based approaches for semantic segmentation
+- Supervision with pixel-level ground truth
+- Developing algorithms for domain adaptation in semantic segmentation"
+1d0dcb458aa4d30b51f7c74b159be687f39120a0,document : Pose - driven Deep Convolutional Model for Person Re - identification Feature extraction and matching are two crucial components in person Re - Identification ( ReID ) . The large pose deformations and the complex view variations exhibited by the captured person images significantly increase the difficulty of learning and matching of the features from person images .,1,"['Task', 'Method']",document : Pose - driven Deep Convolutional Model for Person Re - identification Feature extraction and matching are two crucial components in person Re - Identification ( ReID ) . The large pose deformations and the complex view variations exhibited by the captured person images significantly increase the difficulty of learning and matching of the features from person images .,"{'Task': ['learning and matching of the features', 'matching', 'person Re - Identification', 'ReID', 'Person Re - identification', 'Feature extraction'], 'Method': ['Pose - driven Deep Convolutional']}","{'Task': ['Person Re-Identification (ReID)'], 'Method': ['Feature extraction', 'Feature matching']}","task: Person Re-Identification (ReID)
+methods:
+- Feature extraction
+- Deep Convolutional Model
+- Pose-driven
+- Learning
+- Matching"
+1f08598381af9146d0fd9a61b30d0e51a7331689,"document : Distributed Prioritized Experience Replay We propose a distributed architecture for deep reinforcement learning at scale , that enables agents to learn effectively from orders of magnitude more data than previously possible . The algorithm decouples acting from learning : the actors interact with their own instances of the environment by selecting actions according to a shared neural network , and accumulate the resulting experience in a shared experience replay memory ; the learner replays samples of experience and updates the neural network .",1,"['Task', 'Method']","document : Distributed Prioritized Experience Replay We propose a distributed architecture for deep reinforcement learning at scale , that enables agents to learn effectively from orders of magnitude more data than previously possible . The algorithm decouples acting from learning : the actors interact with their own instances of the environment by selecting actions according to a shared neural network , and accumulate the resulting experience in a shared experience replay memory ; the learner replays samples of experience and updates the neural network .","{'Task': ['Distributed Prioritized Experience Replay', 'deep reinforcement learning', 'learning'], 'Method': ['shared neural network', 'distributed architecture', 'neural network']}","{'Task': ['deep reinforcement learning'], 'Method': ['distributed architecture', 'decoupling of acting from learning', 'interacting with environment', 'selecting actions according to a shared neural network', 'accumulating experience in a shared experience replay memory', 'replaying samples of experience', 'updating the neural network']}","tasks:
+- deep_reinforcement_learning
+- learning_at_scale
+
+methods:
+- distributed_architecture
+- decoupling_acting_from_learning
+- using_shared_neural_network
+- experience_replay
+- accumulating_experience_in_shared_memory
+- replaying_samples_of_experience
+- updating_neural_network"
+2138a7127429d67746ec78de46d6820fee0e548e,"document : Graph2Seq : Graph to Sequence Learning with Attention - Based Neural Networks The celebrated Sequence to Sequence learning ( Seq2Seq ) technique and its numerous variants achieve excellent performance on many tasks . However , many machine learning tasks have inputs naturally represented as graphs ; existing Seq2Seq models face a significant challenge in achieving accurate conversion from graph form to the appropriate sequence .",1,"['Task', 'Method']","document : Graph2Seq : Graph to Sequence Learning with Attention - Based Neural Networks The celebrated Sequence to Sequence learning ( Seq2Seq ) technique and its numerous variants achieve excellent performance on many tasks . However , many machine learning tasks have inputs naturally represented as graphs ; existing Seq2Seq models face a significant challenge in achieving accurate conversion from graph form to the appropriate sequence .","{'Task': ['conversion', 'machine learning tasks', 'Graph to Sequence Learning'], 'Method': ['Attention - Based Neural Networks', 'Seq2Seq', 'Graph2Seq', 'Sequence to Sequence learning']}","Based on the given document, here's the Python dictionary with the requested keys and values:
+
+```python
+{'Task': ['many machine learning tasks', 'achieving accurate conversion from graph form to the appropriate sequence'],
+ 'Method': ['Sequence to Sequence learning ( Seq2Seq )', 'its numerous variants', 'Graph to Sequence Learning', 'Attention - Based Neural Networks']}
+```
+
+This dictionary indicates that the tasks involve many machine learning tasks that require conversion from graph form to the appropriate sequence, and the methods include Sequence to Sequence learning (Seq2Seq), its numerous variants, Graph to Sequence Learning, and Attention-Based Neural Networks.","task: Graph-to-Sequence Learning
+task: Sequence to Sequence Learning
+method: Neural Networks
+method: Attention-Based Neural Networks
+method: Seq2Seq Technique
+method: Variants of Seq2Seq Technique
+task: Conversion from graph form to sequence
+task: Achieving accurate conversion from graph form to sequence in Seq2Seq models."
+21a1654b856cf0c64e60e58258669b374cb05539,"document : You Only Look Once : Unified , Real - Time Object Detection We present YOLO , a new approach to object detection . Prior work on object detection repurposes classifiers to perform detection .",1,"['Task', 'Method']","document : You Only Look Once : Unified , Real - Time Object Detection We present YOLO , a new approach to object detection . Prior work on object detection repurposes classifiers to perform detection .","{'Task': ['Real - Time Object Detection', 'detection', 'object detection'], 'Method': ['classifiers', 'YOLO']}","{'Task': ['object detection'], 'Method': ['You Only Look Once (YOLO)', 'unified', 'real-time']}","```yaml
+Tasks:
+- Object_detection
+
+Methods:
+- Repurposing_classifiers_for_detection
+- Introducing_YOLO_for_object_detection
+```"
+232b43584b2236669c0a53702ad89ab10c3886ea,"In this work , we build on recent advances in distributional reinforcement learning to give a generally applicable , flexible , and state - of - the - art distributional variant of DQN . We achieve this by using quantile regression to approximate the full quantile function for the state - action return distribution . By reparameterizing a distribution over the sample space , this yields an implicitly defined return distribution and gives rise to a large class of risk - sensitive policies .",1,"['Task', 'Method']","In this work , we build on recent advances in distributional reinforcement learning to give a generally applicable , flexible , and state - of - the - art distributional variant of DQN . We achieve this by using quantile regression to approximate the full quantile function for the state - action return distribution . By reparameterizing a distribution over the sample space , this yields an implicitly defined return distribution and gives rise to a large class of risk - sensitive policies .","{'Task': [], 'Method': ['risk - sensitive policies', 'distributional variant', 'reinforcement learning', 'quantile regression', 'DQN']}","{'Task': ['recent advances in distributional reinforce learning'], 'Method': ['using quantile regression to approximate the full quantile function for the state-action return distribution', 'yields an implicitly defined return distribution', 'gives rise to a large class of risk-sensitive policies']}","task: Distributional Reinforcement Learning
+method: [
+  ""Building a generally applicable and state-of-the-art distributional variant of DQN"",
+  ""Using quantile regression to approximate the full quantile function for the state-action return distribution"",
+  ""Reparameterizing a distribution over the sample space to yield an implicitly defined return distribution"",
+  ""Giving rise to a large class of risk-sensitive policies""
+]"
+23d2d3a6ffebfecaa8930307fdcf451c147757c8,"document : SeqGAN : Sequence Generative Adversarial Nets with Policy Gradient As a new way of training generative models , Generative Adversarial Net ( GAN ) that uses a discriminative model to guide the training of the generative model has enjoyed considerable success in generating real - valued data . However , it has limitations when the goal is for generating sequences of discrete tokens .",1,"['Task', 'Method']","document : SeqGAN : Sequence Generative Adversarial Nets with Policy Gradient As a new way of training generative models , Generative Adversarial Net ( GAN ) that uses a discriminative model to guide the training of the generative model has enjoyed considerable success in generating real - valued data . However , it has limitations when the goal is for generating sequences of discrete tokens .","{'Task': ['generating sequences of discrete tokens'], 'Method': ['generative models', 'discriminative model', 'Sequence Generative Adversarial Nets', 'generative model', 'Policy Gradient', 'Generative Adversarial Net', 'GAN', 'SeqGAN']}","{'Task': ['generating sequences of discrete tokens', 'training generative models'], 'Method': ['Sequence Generative Adversarial Nets (SeqGAN)', 'Generative Adversarial Net (GAN)', 'Policy Gradient']}","task: Sequence Generation
+Method:
+- Generative Adversarial Nets (GAN)
+- Policy Gradient
+- Sequence Generative Adversarial Nets (SeqGAN)"
+24730424236724d3f798dec02901e7a1f1c4710e,"Joint Maximum Purity Forest with Application to Image Super - Resolution section : Abstract - In this paper , we propose a novel random - forest scheme , namely Joint Maximum Purity Forest ( JMPF ) , for classification , clustering , and regression tasks .",1,"['Task', 'Method']","Joint Maximum Purity Forest with Application to Image Super - Resolution section : Abstract - In this paper , we propose a novel random - forest scheme , namely Joint Maximum Purity Forest ( JMPF ) , for classification , clustering , and regression tasks .","{'Task': ['Image Super - Resolution', 'classification , clustering , and regression tasks'], 'Method': ['Joint Maximum Purity Forest', 'random - forest scheme', 'JMPF']}","{'Task': ['classification', 'clustering', 'regression'], 'Method': ['Joint Maximum Purity Forest (JMPF)']}","```yaml
+- Task: classification
+  Method: Joint Maximum Purity Forest (JMPF)
+- Task: clustering
+  Method: Joint Maximum Purity Forest (JMPF)
+- Task: regression
+  Method: Joint Maximum Purity Forest (JMPF)
+```"
+249b3b7421d3cdb932eecfe4b67203e0e46806b2,"document : Cell - aware Stacked LSTMs for Modeling Sentences We propose a method of stacking multiple long short - term memory ( LSTM ) layers for modeling sentences . In contrast to the conventional stacked LSTMs where only hidden states are fed as input to the next layer , our architecture accepts both hidden and memory cell states of the preceding layer and fuses information from the left and the lower context using the soft gating mechanism of LSTMs .",1,"['Task', 'Method']","document : Cell - aware Stacked LSTMs for Modeling Sentences We propose a method of stacking multiple long short - term memory ( LSTM ) layers for modeling sentences . In contrast to the conventional stacked LSTMs where only hidden states are fed as input to the next layer , our architecture accepts both hidden and memory cell states of the preceding layer and fuses information from the left and the lower context using the soft gating mechanism of LSTMs .","{'Task': ['Modeling Sentences', 'modeling sentences'], 'Method': ['soft gating mechanism', 'LSTMs', 'multiple long short - term memory', 'LSTM']}","{'Task': ['Modeling Sentences'], 'Method': ['Stacking multiple long short-term memory (LSTM) layers', 'Accepting both hidden and memory cell states of the preceding layer', 'Fusing information using the soft gating mechanism of LSTMs']}","```yaml
+Tasks:
+- Modeling_Sentences
+
+Methods:
+- Stacking_Long_Short_Term_Memory_LSTMs
+- Conventional_Stacked_LSTMs
+- Proposed_Architecture
+  - Accepting_Both_Hidden_And_Memory_Cell_States
+  - Fusing_Information_Using_Soft_Gating_Mechanism_of_LSTMs
+```"
+25a784f7f8c94c42821ee078587fc38dffcd00a4,"document : Robust Face Detection via Learning Small Faces on Hard Images Recent anchor - based deep face detectors have achieved promising performance , but they are still struggling to detect hard faces , such as small , blurred and partially occluded faces . A reason is that they treat all images and faces equally , without putting more effort on hard ones ; however , many training images only contain easy faces , which are less helpful to achieve better performance on hard images .",1,"['Task', 'Method']","document : Robust Face Detection via Learning Small Faces on Hard Images Recent anchor - based deep face detectors have achieved promising performance , but they are still struggling to detect hard faces , such as small , blurred and partially occluded faces . A reason is that they treat all images and faces equally , without putting more effort on hard ones ; however , many training images only contain easy faces , which are less helpful to achieve better performance on hard images .","{'Task': ['Learning Small Faces', 'Robust Face Detection'], 'Method': ['anchor - based deep face detectors']}","{'Task': ['Robust Face Detection'], 'Method': ['Learning Small Faces on Hard Images', 'Anchor-based deep face detection']}","task: Face Detection
+methods:
+- Anchor-based deep face detectors
+- Learning Small Faces
+- Putting more effort on hard images
+- Treating all images and faces equally
+- Containing easy faces in training images"
+25f5df29342a04936ba0d308b4d1b8245a7e8f5c,Convolutional Pose Machines section : Abstract Pose Machines provide a sequential prediction framework for learning rich implicit spatial models .,1,"['Task', 'Method']",Convolutional Pose Machines section : Abstract Pose Machines provide a sequential prediction framework for learning rich implicit spatial models .,"{'Task': [], 'Method': ['Pose Machines', 'Convolutional Pose Machines', 'implicit spatial models', 'sequential prediction framework']}","{'Task': ['learning rich implicit spatial models'], 'Method': ['Convolutional Pose Machines', 'Abstract Pose Machines', 'sequential prediction framework']}","task: Sequential prediction of human pose
+method: Learning rich implicit spatial models using Abstract Pose Machines
+method: Providing a framework for the task using Abstract Pose Machines
+method: Implementing the framework through Convolutional Pose Machines"
+269730dbbabed8b8b5ba720e44a4c31b1f51e8f1,"Published as a conference paper at ICLR 2017 QUERY - REDUCTION NETWORKS FOR QUESTION ANSWERING section : ABSTRACT In this paper , we study the problem of question answering when reasoning over multiple facts is required .",1,"['Task', 'Method']","Published as a conference paper at ICLR 2017 QUERY - REDUCTION NETWORKS FOR QUESTION ANSWERING section : ABSTRACT In this paper , we study the problem of question answering when reasoning over multiple facts is required .","{'Task': ['QUESTION ANSWERING', 'question answering'], 'Method': ['QUERY - REDUCTION NETWORKS']}","{'Task': ['question answering', 'reasoning over multiple facts'], 'Method': ['query reduction networks']}","```yaml
+Task:
+- Question Answering
+- Reasoning over multiple facts
+
+Method:
+- Query Reduction Networks
+```"
+270e65acc071b9e4e2a632720130c0e10cb6fa08,"document : Neural Tree Indexers for Text Understanding Recurrent neural networks ( RNNs ) process input text sequentially and model the conditional transition between word tokens . In contrast , the advantages of recursive networks include that they explicitly model the compositionality and the recursive structure of natural language .",1,"['Task', 'Method']","document : Neural Tree Indexers for Text Understanding Recurrent neural networks ( RNNs ) process input text sequentially and model the conditional transition between word tokens . In contrast , the advantages of recursive networks include that they explicitly model the compositionality and the recursive structure of natural language .","{'Task': ['Text Understanding'], 'Method': ['RNNs', 'Recurrent neural networks', 'recursive networks', 'Neural Tree Indexers']}","{'Task': ['Text Understanding'], 'Method': ['Neural Tree Indexers', 'Recurrent neural networks (RNNs)', 'Processing input text sequentially', 'Modeling conditional transition between word tokens', 'Explicitly modeling compositionality', 'Explicitly modeling recursive structure of natural language', 'Recursive networks']}","```yaml
+- Task: Text Understanding
+  Method: Neural Tree Indexers
+- Task: Text Understanding
+  Method: Recurrent Neural Networks (RNNs)
+- Task: Text Understanding
+  Method: Processing Input Text Sequentially
+- Task: Text Understanding
+  Method: Modeling Conditional Transition between Word Tokens
+- Task: Text Understanding
+  Method: Explicitly Modeling Compositionality
+- Task: Text Understanding
+  Method: Explicitly Modeling Recursive Structure
+- Task: Text Understanding
+  Method: Recursive Networks
+```"
+2777cd26b2c257843273fe41ad4c5b8cdf1b1b75,"document : Understanding Humans in Crowded Scenes : Deep Nested Adversarial Learning and A New Benchmark for Multi - Human Parsing Despite the noticeable progress in perceptual tasks like detection , instance segmentation and human parsing , computers still perform unsatisfactorily on visually understanding humans in crowded scenes , such as group behavior analysis , person re - identification and autonomous driving , etc . To this end , models need to comprehensively perceive the semantic information and the differences between instances in a multi - human image , which is recently defined as the multi - human parsing task .",1,"['Task', 'Method']","document : Understanding Humans in Crowded Scenes : Deep Nested Adversarial Learning and A New Benchmark for Multi - Human Parsing Despite the noticeable progress in perceptual tasks like detection , instance segmentation and human parsing , computers still perform unsatisfactorily on visually understanding humans in crowded scenes , such as group behavior analysis , person re - identification and autonomous driving , etc . To this end , models need to comprehensively perceive the semantic information and the differences between instances in a multi - human image , which is recently defined as the multi - human parsing task .","{'Task': ['autonomous driving', 'detection', 'instance segmentation', 'group behavior analysis', 'Understanding Humans in Crowded Scenes', 'human parsing', 'visually understanding humans in crowded scenes', 'perceptual tasks', 'person re - identification', 'Multi - Human Parsing'], 'Method': ['Deep Nested Adversarial Learning']}","{'Task': ['group behavior analysis', 'person re-identification', 'autonomous driving', 'multi-human parsing'], 'Method': ['Deep Nested Adversarial Learning']}","tasks:
+- name: Group behavior analysis
+- name: Person re-identification
+- name: Autonomous driving
+methods:
+- name: Deep Nested Adversarial Learning
+- name: Multi-human Parsing"
+27a99c21a1324f087b2f144adc119f04137dfd87,document : Deep Fried Convnets The fully - connected layers of deep convolutional neural networks typically contain over 90 % of the network parameters . Reducing the number of parameters while preserving predictive performance is critically important for training big models in distributed systems and for deployment in embedded devices .,1,"['Task', 'Method']",document : Deep Fried Convnets The fully - connected layers of deep convolutional neural networks typically contain over 90 % of the network parameters . Reducing the number of parameters while preserving predictive performance is critically important for training big models in distributed systems and for deployment in embedded devices .,"{'Task': ['distributed systems', 'embedded devices'], 'Method': ['Deep Fried Convnets', 'big models', 'fully - connected layers of deep convolutional neural networks']}","Based on the given document, the following entities reflecting the tasks and methods can be identified:
+
+{'Task': ['training big models in distributed systems', 'deployment in embedded devices'], 'Method': ['reducing the number of parameters', 'preserving predictive performance']}","task: Reducing number of parameters in deep convolutional neural networks
+method: Preserving predictive performance while reducing network parameters"
+27aa0f3ec934925265f93fac7ff1cd1d70ceb618,Strong Baselines for Neural Semi - supervised Learning under Domain Shift section : Abstract Novel neural models have been proposed in recent years for learning under domain shift .,1,"['Task', 'Method']",Strong Baselines for Neural Semi - supervised Learning under Domain Shift section : Abstract Novel neural models have been proposed in recent years for learning under domain shift .,"{'Task': ['Neural Semi - supervised Learning', 'learning under domain shift', 'Domain Shift'], 'Method': ['neural models']}","Based on the given document abstract, the following entities reflecting tasks and methods for neural semi-supervised learning under domain shift can be identified:
+
+{'Task': ['learning under domain shift'], 'Method': ['neural models']}","task: Neural Semi-supervised Learning under Domain Shift
+methods:
+- Novel neural models
+- Learning under domain shift"
+2a86bcdfb1d817ddb76ba202319f8267a36c0f62,"document : PCL : Proposal Cluster Learning for Weakly Supervised Object Detection Weakly Supervised Object Detection ( WSOD ) , using only image - level annotations to train object detectors , is of growing importance in object recognition . In this paper , we propose a novel deep network for WSOD .",1,"['Task', 'Method']","document : PCL : Proposal Cluster Learning for Weakly Supervised Object Detection Weakly Supervised Object Detection ( WSOD ) , using only image - level annotations to train object detectors , is of growing importance in object recognition . In this paper , we propose a novel deep network for WSOD .","{'Task': ['Weakly Supervised Object Detection', 'object recognition', 'WSOD', 'WSOD )'], 'Method': ['Proposal Cluster Learning', 'object detectors', 'PCL', 'deep network']}","{'Task': ['Weakly Supervised Object Detection'], 'Method': ['Proposal Cluster Learning', 'Deep Network']}","```yaml
+Tasks:
+- Weakly_Supervised_Object_Detection
+
+Methods:
+- Proposal_Cluster_Learning
+- Deep_Network
+```"
+2f04ba0f74df046b0080ca78e56898bd4847898b,"document : Aggregate Channel Features for Multi - view Face Detection Face detection has drawn much attention in recent decades since the seminal work by Viola and Jones . While many subsequences have improved the work with more powerful learning algorithms , the feature representation used for face detection still ca n’t meet the demand for effectively and efficiently handling faces with large appearance variance in the wild .",1,"['Task', 'Method']","document : Aggregate Channel Features for Multi - view Face Detection Face detection has drawn much attention in recent decades since the seminal work by Viola and Jones . While many subsequences have improved the work with more powerful learning algorithms , the feature representation used for face detection still ca n’t meet the demand for effectively and efficiently handling faces with large appearance variance in the wild .","{'Task': ['Multi - view Face Detection', 'detection'], 'Method': ['Aggregate Channel Features', 'feature representation', 'learning algorithms']}","Based on the given document, the following entities reflecting the tasks and methods can be identified:
+
+{'Task': ['Face detection'], 'Method': ['Aggregate Channel Features', 'Multi-view Face Detection', 'Viola and Jones algorithm', 'Powerful learning algorithms']}","tasks:
+- name: Aggregate Channel Features for Multi-view Face Detection
+
+methods:
+- name: Face Detection
+  sub_methods:
+  - name: Viola and Jones algorithm
+  - name: Using more powerful learning algorithms"
+2f56b1ac5b9faac9527b6814778925e9242cf5fd,"document : Training Region - based Object Detectors with Online Hard Example Mining The field of object detection has made significant advances riding on the wave of region - based ConvNets , but their training procedure still includes many heuristics and hyperparameters that are costly to tune . We present a simple yet surprisingly effective online hard example mining",1,"['Task', 'Method']","document : Training Region - based Object Detectors with Online Hard Example Mining The field of object detection has made significant advances riding on the wave of region - based ConvNets , but their training procedure still includes many heuristics and hyperparameters that are costly to tune . We present a simple yet surprisingly effective online hard example mining","{'Task': ['object detection'], 'Method': ['Region - based Object Detectors', 'Online Hard Example Mining', 'online hard example mining', 'region - based ConvNets']}","{'Task': ['Object Detection', 'Training'], 'Method': ['Online Hard Example Mining', 'Region-based ConvNets']}","```yaml
+Tasks:
+- Object Detection
+- Training Region-based Object Detectors
+
+Methods:
+- Region-based ConvNets
+- Online Hard Example Mining
+```"
+2f97ee95cad6a1f13596b108072b846c6f747d4e,"document : The Microsoft 2016 Conversational Speech Recognition System We describe Microsoft ’s conversational speech recognition system , in which we combine recent developments in neural - network - based acoustic and language modeling to advance the state of the art on the Switchboard recognition task . Inspired by machine learning ensemble techniques , the system uses a range of convolutional and recurrent neural networks .",1,"['Task', 'Method']","document : The Microsoft 2016 Conversational Speech Recognition System We describe Microsoft ’s conversational speech recognition system , in which we combine recent developments in neural - network - based acoustic and language modeling to advance the state of the art on the Switchboard recognition task . Inspired by machine learning ensemble techniques , the system uses a range of convolutional and recurrent neural networks .","{'Task': [], 'Method': ['machine learning ensemble techniques', 'neural - network - based acoustic and language modeling', 'Conversational Speech Recognition System', 'convolutional and recurrent neural networks', 'Microsoft ’s conversational speech recognition system']}","{'Task': ['Switchboard recognition task'], 'Method': ['neural-network-based acoustic modeling', 'neural-network-based language modeling', 'machine learning ensemble techniques', 'convolutional neural networks', 'recurrent neural networks']}","```yaml
+Tasks:
+- Switchboard_recognition_task
+
+Methods:
+- Neural_network_based_acoustic_modeling
+- Neural_network_based_language_modeling
+- Convolutional_neural_networks
+- Recurrent_neural_networks
+- Machine_learning_ensemble_techniques
+```"
+322a7dad274f440a92548faa8f2b2be666b2d01f,"document : Pyramid Scene Parsing Network Scene parsing is challenging for unrestricted open vocabulary and diverse scenes . In this paper , we exploit the capability of global context information by different - region - based context aggregation through our pyramid pooling module together with the proposed pyramid scene parsing network ( PSPNet ) .",1,"['Task', 'Method']","document : Pyramid Scene Parsing Network Scene parsing is challenging for unrestricted open vocabulary and diverse scenes . In this paper , we exploit the capability of global context information by different - region - based context aggregation through our pyramid pooling module together with the proposed pyramid scene parsing network ( PSPNet ) .","{'Task': ['Scene parsing'], 'Method': ['Pyramid Scene Parsing Network', 'region - based context aggregation', 'pyramid scene parsing network', 'PSPNet', 'pyramid pooling module']}","{'Task': ['scene parsing'], 'Method': ['pyramid pooling module', 'pyramid scene parsing network (PSPNet)']}","task: Scene Parsing
+methods:
+- Pyramid Pooling Module
+- Pyramid Scene Parsing Network (PSPNet)"
+325af39d281d5903a269c01fab8f53d7400a4c49,document : ArtTrack : Articulated Multi - person Tracking in the Wild In this paper we propose an approach for articulated tracking of multiple people in unconstrained videos . Our starting point is a model that resembles existing architectures for single - frame pose estimation but is substantially faster .,1,"['Task', 'Method']",document : ArtTrack : Articulated Multi - person Tracking in the Wild In this paper we propose an approach for articulated tracking of multiple people in unconstrained videos . Our starting point is a model that resembles existing architectures for single - frame pose estimation but is substantially faster .,"{'Task': ['single - frame pose estimation', 'articulated tracking of multiple people in unconstrained videos'], 'Method': ['ArtTrack', 'Articulated Multi - person Tracking']}","{'Task': ['articulated tracking of multiple people', 'unconstrained videos'], 'Method': ['model for single-frame pose estimation']}","```yaml
+Tasks:
+- Articulated tracking of multiple people
+- Unconstrained videos
+
+Methods:
+- Existing architectures for single-frame pose estimation
+- Faster model for articulated tracking
+```"
+33261d252218007147a71e40f8367ed152fa2fe0,Question Answering with Subgraph Embeddings section : Abstract .,1,"['Task', 'Method']",Question Answering with Subgraph Embeddings section : Abstract .,"{'Task': ['Question Answering'], 'Method': ['Subgraph Embeddings']}","Based on the given document title and abstract, it can be inferred that the tasks and methods mentioned are related to ""Question Answering"" using ""Subgraph Embeddings"". Here's the Python dictionary with the extracted entities:
+
+```python
+{'Task': ['Question Answering'], 'Method': ['Subgraph Embeddings']}
+```","```yaml
+- Task: Question Answering
+  Method:
+    - Name: Subgraph Embeddings
+```"
+3448e6a5039417dc1ae890efeca3bef5390ace7c,"document : [ Combinatorial features are essential for the success of many commercial models . Manually crafting these features usually comes with high cost due to the variety , volume and velocity of raw data in web - scale systems .",1,"['Task', 'Method']","document : [ Combinatorial features are essential for the success of many commercial models . Manually crafting these features usually comes with high cost due to the variety , volume and velocity of raw data in web - scale systems .","{'Task': ['web - scale systems'], 'Method': []}","Based on the given document, here's the Python dictionary with the requested keys and values:
+
+```python
+{'Task': ['success of many commercial models'], 'Method': ['manually crafting these features']}
+```
+
+These entities reflect the tasks (success of many commercial models) and methods (manually crafting these features) mentioned in the document.","task: Feature Engineering
+method: Manually crafting features
+
+Task: Success of commercial models
+Method: Using combinatorial features
+Method: Feature Engineering (implicit)
+
+Task: Reducing cost
+Method: Automating feature engineering process
+Method: Handling variety, volume and velocity of raw data in web-scale systems (implicit)"
+35734e8724559fb0d494e5cba6a28ad7a3d5dd4d,"document : Explaining and Harnessing Adversarial Examples Several machine learning models , including neural networks , consistently misclassify adversarial examples —inputs formed by applying small but intentionally worst - case perturbations to examples from the dataset , such that the perturbed input results in the model outputting an incorrect answer with high confidence . Early attempts at explaining this phenomenon focused on nonlinearity and overfitting .",1,"['Task', 'Method']","document : Explaining and Harnessing Adversarial Examples Several machine learning models , including neural networks , consistently misclassify adversarial examples —inputs formed by applying small but intentionally worst - case perturbations to examples from the dataset , such that the perturbed input results in the model outputting an incorrect answer with high confidence . Early attempts at explaining this phenomenon focused on nonlinearity and overfitting .","{'Task': [], 'Method': ['neural networks', 'machine learning models']}","{'Task': ['misclassifying adversarial examples', 'outputting an incorrect answer'], 'Method': ['explaining this phenomenon', 'focused on nonlinearity and overfitting']}","```yaml
+Tasks:
+- Explaining: ""the phenomenon of machine learning models misclassifying adversarial examples""
+
+Methods:
+- Early attempts:
+  - Focused on: [""nonlinearity"", ""overfitting""]
+```"
+364c1a3df58d87cb40ab33fdf3831cf2862f3570,"document : aNMM : Ranking Short Answer Texts with Attention - Based Neural Matching Model As an alternative to question answering methods based on feature engineering , deep learning approaches such as convolutional neural networks ( CNNs ) and Long Short - Term Memory Models ( LSTMs ) have recently been proposed for semantic matching of questions and answers . To achieve good results , however , these models have been combined with additional features such as word overlap or BM25 scores .",1,"['Task', 'Method']","document : aNMM : Ranking Short Answer Texts with Attention - Based Neural Matching Model As an alternative to question answering methods based on feature engineering , deep learning approaches such as convolutional neural networks ( CNNs ) and Long Short - Term Memory Models ( LSTMs ) have recently been proposed for semantic matching of questions and answers . To achieve good results , however , these models have been combined with additional features such as word overlap or BM25 scores .","{'Task': ['semantic matching of questions and answers', 'Ranking Short Answer Texts', 'question answering'], 'Method': ['Attention - Based Neural Matching Model', 'LSTMs', 'feature engineering', 'convolutional neural networks', 'Long Short - Term Memory Models', 'CNNs', 'aNMM', 'deep learning approaches']}","{'Task': ['semantic matching of questions and answers'], 'Method': ['convolutional neural networks (CNNs)', 'Long Short-Term Memory Models (LSTMs)']}","```yaml
+Tasks:
+- Semantic matching of questions and answers
+
+Methods:
+- Convolutional Neural Networks (CNNs)
+- Long Short-Term Memory Models (LSTMs)
+```"
+3842ee1e0fdfeff936b5c49973ff21adfaaf3929,"document : Adversarial Discriminative Domain Adaptation Adversarial learning methods are a promising approach to training robust deep networks , and can generate complex samples across diverse domains . They also can improve recognition despite the presence of domain shift or dataset bias : several adversarial approaches to unsupervised domain adaptation have recently been introduced , which reduce the difference between the training and test domain distributions and thus improve generalization performance .",1,"['Task', 'Method']","document : Adversarial Discriminative Domain Adaptation Adversarial learning methods are a promising approach to training robust deep networks , and can generate complex samples across diverse domains . They also can improve recognition despite the presence of domain shift or dataset bias : several adversarial approaches to unsupervised domain adaptation have recently been introduced , which reduce the difference between the training and test domain distributions and thus improve generalization performance .","{'Task': ['generalization', 'recognition', 'unsupervised domain adaptation', 'robust deep networks'], 'Method': ['Adversarial learning methods', 'adversarial approaches', 'Adversarial Discriminative Domain Adaptation']}","{'Task': ['unsupervised domain adaptation', 'improving recognition'], 'Method': ['adversarial learning methods', 'adversarial approaches']}","task: Unsupervised Domain Adaptation
+methods:
+- Adversarial Learning
+- Adversarial Discriminative Domain Adaptation
+- Generating complex samples across diverse domains
+- Reducing the difference between training and test domain distributions
+- Improving recognition despite domain shift or dataset bias"
+38cc89399dd6f5aaab1654f27ab3c9eeade12a36,"document : Exploiting temporal information for 3D human pose estimation In this work , we address the problem of 3D human pose estimation from a sequence of 2D human poses . Although the recent success of deep networks has led many state - of - the - art methods for 3D pose estimation to train deep networks end - to - end to predict from images directly , the top - performing approaches have shown the effectiveness of dividing the task of 3D pose estimation into two steps : using a state - of - the - art 2D pose estimator to estimate the 2D pose from images and then mapping them into 3D space .",1,"['Task', 'Method']","document : Exploiting temporal information for 3D human pose estimation In this work , we address the problem of 3D human pose estimation from a sequence of 2D human poses . Although the recent success of deep networks has led many state - of - the - art methods for 3D pose estimation to train deep networks end - to - end to predict from images directly , the top - performing approaches have shown the effectiveness of dividing the task of 3D pose estimation into two steps : using a state - of - the - art 2D pose estimator to estimate the 2D pose from images and then mapping them into 3D space .","{'Task': ['3D human pose estimation', '3D pose'], 'Method': ['deep networks', '2D pose estimator']}","{'Task': ['3D human pose estimation', 'dividing the task of 3D pose estimation into two steps'],
+ 'Method': ['using a state-of-the-art 2D pose estimator', 'estimating the 2D pose from images', 'mapping them into 3D space']}","tasks:
+- name: 3D human pose estimation
+  sub_tasks:
+  - name: estimating 2D pose from images
+  - name: mapping 2D poses to 3D space
+
+methods:
+- name: using a state-of-the-art 2D pose estimator
+- name: dividing the task into two steps
+- name: training deep networks end-to-end to predict from images directly
+- name: using a state-of-the-art 2D pose estimator and mapping 2D poses to 3D space"
+38e2f851b705faa0d0a698ed9885bd6834440073,"Probabilistic Model - Agnostic Meta - Learning section : Abstract Meta - learning for few - shot learning entails acquiring a prior over previous tasks and experiences , such that new tasks be learned from small amounts of data .",1,"['Task', 'Method']","Probabilistic Model - Agnostic Meta - Learning section : Abstract Meta - learning for few - shot learning entails acquiring a prior over previous tasks and experiences , such that new tasks be learned from small amounts of data .","{'Task': ['few - shot learning'], 'Method': ['Meta - learning', 'Probabilistic Model - Agnostic Meta - Learning']}","Based on the given document, here's the Python dictionary with task and method entities:
+
+```python
+{'Task': ['few-shot learning'], 'Method': ['abstract meta-learning', 'acquiring a prior over previous tasks and experiences']}
+```
+
+These entities reflect the tasks (few-shot learning) and methods (abstract meta-learning, acquiring a prior over previous tasks and experiences) mentioned in the document.","```yaml
+- Task: Few-shot Learning
+  Method: Abstract Meta-learning
+  Method: Acquiring a prior over previous tasks and experiences
+  Method: Learning new tasks from small amounts of data
+```"
+3aa21de1a7c97e0458e10ed5730ce160bb436caa,"document : Pixel2Mesh : Generating 3D Mesh Models from Single RGB Images We propose an end - to - end deep learning architecture that produces a 3D shape in triangular mesh from a single color image . Limited by the nature of deep neural network , previous methods usually represent a 3D shape in volume or point cloud , and it is non - trivial to convert them to the more ready - to - use mesh model .",1,"['Task', 'Method']","document : Pixel2Mesh : Generating 3D Mesh Models from Single RGB Images We propose an end - to - end deep learning architecture that produces a 3D shape in triangular mesh from a single color image . Limited by the nature of deep neural network , previous methods usually represent a 3D shape in volume or point cloud , and it is non - trivial to convert them to the more ready - to - use mesh model .","{'Task': [], 'Method': ['Pixel2Mesh', '3D Mesh Models', 'end deep learning architecture', 'mesh model', 'deep neural network']}","{'Task': ['Generating 3D Mesh Models', 'Producing a 3D shape'], 'Method': ['End-to-end deep learning architecture', 'Limited methods (representing a 3D shape in volume or point cloud)', 'Converting volume or point cloud to mesh model']}","task:
+- Generating 3D mesh models from single RGB images
+
+method:
+- Proposing an end-to-end deep learning architecture
+- Producing a 3D shape in triangular mesh from a single color image
+- Representing a 3D shape in volume or point cloud (previous methods)
+- Converting volume or point cloud to mesh model (non-trivial)"
+3acc07f7f8951617276cf99483ed02aeb0a6eeac,"document : Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes During the last half decade , convolutional neural networks ( CNNs ) have triumphed over semantic segmentation , which is a core task of various emerging industrial applications such as autonomous driving and medical imaging . However , to train CNNs requires a huge amount of data , which is difficult to collect and laborious to annotate .",1,"['Task', 'Method']","document : Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes During the last half decade , convolutional neural networks ( CNNs ) have triumphed over semantic segmentation , which is a core task of various emerging industrial applications such as autonomous driving and medical imaging . However , to train CNNs requires a huge amount of data , which is difficult to collect and laborious to annotate .","{'Task': ['semantic segmentation', 'autonomous driving', 'medical imaging', 'industrial applications', 'Semantic Segmentation of Urban Scenes'], 'Method': ['convolutional neural networks', 'CNNs', 'Curriculum Domain Adaptation']}","{'Task': ['semantic segmentation', 'autonomous driving', 'medical imaging'], 'Method': ['convolutional neural networks (CNNs)']}","task:
+- semantic segmentation
+- autonomous driving
+- medical imaging
+
+method:
+- convolutional neural networks (CNNs)"
+3ca3993b1f3536b15112f759067f62e999c5d38f,"BB8 : A Scalable , Accurate , Robust to Partial Occlusion Method for Predicting the 3D Poses of Challenging Objects without Using Depth section : Abstract",1,"['Task', 'Method']","BB8 : A Scalable , Accurate , Robust to Partial Occlusion Method for Predicting the 3D Poses of Challenging Objects without Using Depth section : Abstract","{'Task': ['Predicting the 3D Poses of Challenging Objects'], 'Method': ['Partial Occlusion Method', 'BB8']}","{'Task': ['Predicting the 3D Poses of Challenging Objects'], 'Method': ['BB8: A Scalable, Accurate, Robust to Partial Occlusion Method']}","task: Object Poses Prediction
+method: BB8: A Scalable, Accurate, Robust to Partial Occlusion Method
+
+tasks:
+- Object Poses Prediction
+
+methods:
+- BB8: A Scalable, Accurate, Robust to Partial Occlusion Method"
+3cf31ecb2724b5088783d7c96a5fc0d5604cbf41,"document : Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations We present a simple and effective scheme for dependency parsing which is based on bidirectional - LSTMs ( BiLSTMs ) . Each sentence token is associated with a BiLSTM vector representing the token in its sentential context , and feature vectors are constructed by concatenating a few BiLSTM vectors .",1,"['Task', 'Method']","document : Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations We present a simple and effective scheme for dependency parsing which is based on bidirectional - LSTMs ( BiLSTMs ) . Each sentence token is associated with a BiLSTM vector representing the token in its sentential context , and feature vectors are constructed by concatenating a few BiLSTM vectors .","{'Task': ['Dependency Parsing', 'dependency parsing'], 'Method': ['Bidirectional LSTM Feature Representations', 'BiLSTMs', 'bidirectional - LSTMs']}","{'Task': ['dependency parsing'], 'Method': ['bidirectional-LSTM (BiLSTM)', 'scheme based on bidirectional-LSTMs (BiLSTMs)', 'each sentence token is associated with a BiLSTM vector', 'constructing feature vectors by concatenating a few BiLSTM vectors']}","task: Dependency Parsing
+method: Bidirectional Long Short-Term Memory (BiLSTM) Feature Representations"
+3daa086acd367dc971a2dc1382caba2031294233,"Holistic , Instance - level Human Parsing section : Abstract Object parsing - the task of decomposing an object into its semantic parts - has traditionally been formulated as a category - level segmentation problem .",1,"['Task', 'Method']","Holistic , Instance - level Human Parsing section : Abstract Object parsing - the task of decomposing an object into its semantic parts - has traditionally been formulated as a category - level segmentation problem .","{'Task': ['category - level segmentation problem', 'Holistic , Instance - level Human Parsing', 'decomposing an object', 'Object parsing'], 'Method': []}","{'Task': ['Abstract Object parsing', 'category-level segmentation'], 'Method': ['instance-level Human Parsing', 'semantic parts decomposition']}","```yaml
+Tasks:
+- Abstract Object Parsing
+  - Type: Decomposition
+  - Level: Instance-level, Holistic
+  - Description: Decomposing an object into its semantic parts
+  - Formulation: Category-level segmentation problem
+
+Methods:
+- Object Parsing
+  - Type: Abstraction
+  - Description: Decomposing an object into its semantic parts
+  - Level: Instance-level, Holistic
+```"
+408e8eecc14c5cc60bbdfc486ba7a7fc97031788,Discriminative Unsupervised Feature Learning with Convolutional Neural Networks Current methods for training convolutional neural networks depend on large amounts of labeled samples for supervised training . In this paper we present an approach for training a convolutional neural network using only unlabeled data . We train the network to discriminate between a set of surrogate classes .,1,"['Task', 'Method']",Discriminative Unsupervised Feature Learning with Convolutional Neural Networks Current methods for training convolutional neural networks depend on large amounts of labeled samples for supervised training . In this paper we present an approach for training a convolutional neural network using only unlabeled data . We train the network to discriminate between a set of surrogate classes .,"{'Task': ['supervised training'], 'Method': ['network', 'convolutional neural networks', 'Discriminative Unsupervised Feature Learning with Convolutional Neural Networks']}","{'Task': ['training a convolutional neural network', 'discriminating between a set of surrogate classes'], 'Method': ['using only unlabeled data', 'unsupervised training with convolutional neural networks']}","task: Unsupervised Feature Learning
+method: Discriminative Training with Convolutional Neural Networks
+task: Training a Convolutional Neural Network
+method: Using only Unlabeled Data
+task: Surrogate Classes Discrimination
+method: Training a Convolutional Neural Network"
+4365eb43a635bc6431dfaf3af1f7bf7bf55522cc,"document : CoupleNet : Coupling Global Structure with Local Parts for Object Detection The region - based Convolutional Neural Network ( CNN ) detectors such as Faster R - CNN or R - FCN have already shown promising results for object detection by combining the region proposal subnetwork and the classification subnetwork together . Although R - FCN has achieved higher detection speed while keeping the detection performance , the global structure information is ignored by the position - sensitive score maps .",1,"['Task', 'Method']","document : CoupleNet : Coupling Global Structure with Local Parts for Object Detection The region - based Convolutional Neural Network ( CNN ) detectors such as Faster R - CNN or R - FCN have already shown promising results for object detection by combining the region proposal subnetwork and the classification subnetwork together . Although R - FCN has achieved higher detection speed while keeping the detection performance , the global structure information is ignored by the position - sensitive score maps .","{'Task': ['Object Detection', 'detection', 'object detection'], 'Method': ['region proposal subnetwork', 'CNN', 'CoupleNet', 'classification subnetwork', 'R - FCN', 'Convolutional Neural Network']}","{'Task': ['object detection'], 'Method': ['region-based Convolutional Neural Network (CNN)', 'Faster R-CNN', 'R-FCN']}","task: Object Detection
+methods:
+- Region-based Convolutional Neural Network (CNN)
+- Faster R-CNN
+- R-FCN"
+436b07bebaa1d1f05ef85415e10374048d25334d,OUTRAGEOUSLY LARGE NEURAL NETWORKS : THE SPARSELY - GATED MIXTURE - OF - EXPERTS LAYER section : ABSTRACT,1,"['Task', 'Method']",OUTRAGEOUSLY LARGE NEURAL NETWORKS : THE SPARSELY - GATED MIXTURE - OF - EXPERTS LAYER section : ABSTRACT,"{'Task': [], 'Method': ['OUTRAGEOUSLY LARGE NEURAL NETWORKS', 'SPARSELY - GATED MIXTURE - OF - EXPERTS LAYER']}","Based on the given document title and abstract, here's the Python dictionary with task and method entities:
+
+```python
+{'Task': ['OUTRAGEOUSLY LARGE NEURAL NETWORKS'], 'Method': ['SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER']}
+```
+
+This dictionary indicates that the task is related to ""OUTRAGEOUSLY LARGE NEURAL NETWORKS"" and the method used is ""SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER"".","tasks:
+- Training large neural networks
+
+methods:
+- Sparsely-gated Mixture-of-Experts layer
+  - Sparse gating
+  - Mixture-of-Experts architecture"
+44078d0daed8b13114cffb15b368acc467f96351,"document : Triplet Probabilistic Embedding for Face Verification and Clustering Despite significant progress made over the past twenty five years , unconstrained face verification remains a challenging problem . This paper proposes an approach that couples a deep CNN - based approach with a low - dimensional discriminative embedding step , learned using triplet probability constraints to address the unconstrained face verification problem .",1,"['Task', 'Method']","document : Triplet Probabilistic Embedding for Face Verification and Clustering Despite significant progress made over the past twenty five years , unconstrained face verification remains a challenging problem . This paper proposes an approach that couples a deep CNN - based approach with a low - dimensional discriminative embedding step , learned using triplet probability constraints to address the unconstrained face verification problem .","{'Task': ['Face Verification', 'Clustering', 'unconstrained face verification problem', 'unconstrained face verification'], 'Method': ['Triplet Probabilistic Embedding', 'CNN', 'low - dimensional discriminative embedding step']}","{'Task': ['unconstrained face verification'], 'Method': ['deep CNN-based approach', 'low-dimensional discriminative embedding step', 'triplet probability constraints']}","task: Face Verification and Clustering
+methods:
+- Deep CNN-based approach
+- Low-dimensional discriminative embedding step
+- Triplet Probability Constraints"
+45429c281e30f9e87ebcd1ae42e0656d2ead24d1,"document : High - Resolution Image Synthesis and Semantic Manipulation with Conditional GANs We present a new method for synthesizing high - resolution photo - realistic images from semantic label maps using conditional generative adversarial networks ( conditional GANs ) . Conditional GANs have enabled a variety of applications , but the results are often limited to low - resolution and still far from realistic .",1,"['Task', 'Method']","document : High - Resolution Image Synthesis and Semantic Manipulation with Conditional GANs We present a new method for synthesizing high - resolution photo - realistic images from semantic label maps using conditional generative adversarial networks ( conditional GANs ) . Conditional GANs have enabled a variety of applications , but the results are often limited to low - resolution and still far from realistic .","{'Task': ['semantic label maps', 'synthesizing high - resolution photo - realistic images', 'High - Resolution Image Synthesis', 'Semantic Manipulation'], 'Method': ['Conditional GANs', 'conditional GANs', 'conditional generative adversarial networks']}","{'Task': ['High-Resolution Image Synthesis', 'Semantic Manipulation'], 'Method': ['Conditional Generative Adversarial Networks (conditional GANs)']}","task: High-Resolution Image Synthesis from Semantic Label Maps
+method: Conditional Generative Adversarial Networks (Conditional GANs)"
+455da02e5048dffb51fb6ab5eb8aeca5926c9d9a,"document : Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition Existing deep convolutional neural networks ( CNNs ) require a fixed - size ( , 224 224 ) input image . This requirement is “ artificial ” and may reduce the recognition accuracy for the images or sub - images of an arbitrary size / scale .",1,"['Task', 'Method']","document : Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition Existing deep convolutional neural networks ( CNNs ) require a fixed - size ( , 224 224 ) input image . This requirement is “ artificial ” and may reduce the recognition accuracy for the images or sub - images of an arbitrary size / scale .","{'Task': ['Visual Recognition'], 'Method': ['Deep Convolutional Networks', 'deep convolutional neural networks', 'Spatial Pyramid Pooling', 'CNNs']}","Based on the given document, the following entities reflecting the tasks and methods can be identified:
+
+{'Task': ['Visual Recognition'], 'Method': ['Spatial Pyramid Pooling']}","task: Visual Recognition
+method: [Spatial Pyramid Pooling, Deep Convolutional Neural Networks (CNNs)]"
