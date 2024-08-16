@@ -10,7 +10,7 @@ import random
 import re
 import torch
 
-MODEL_SAVE_PATH = '/home/bizon/hai/gemma_7b_save'
+MODEL_SAVE_PATH = 'YOUR MODEL SAVE PATH'
 
 sampling_params = SamplingParams(temperature=0.1, top_p=0.95, min_tokens = 1, max_tokens = 256)
 
@@ -82,7 +82,7 @@ def extract_character_quoting_answer(input_string):
         return ""
 
 saved_rows = []
-with open("/home/bizon/hai/EvalData/mcq_bbh_test_1.csv") as file:
+with open("../../../EvalData/mcq_bbh_test_1.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader) # topic,question,choices_texts,input_data,correct_key,correct_text
     
@@ -110,27 +110,27 @@ with open("/home/bizon/hai/EvalData/mcq_bbh_test_1.csv") as file:
         placeholder_wrapping = "Wrap your final answer by filling in the placeholder below: 'So the answer is: \{\{placeholder\}\}'"
         quoting_wrapping = "Wrap your final answer using triple quotation marks."
 
-        raw_cot_free_form_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + free_form_wrapping * 1)
+        raw_cot_free_form_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + free_form_wrapping)
         cot_free_form_result = extract_character_free_form_answer(raw_cot_free_form_result)
         cot_free_form_cnt += int(cot_free_form_result==correct_key)
         
-        raw_cot_bolding_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + bolding_wrapping * 1)
+        raw_cot_bolding_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + bolding_wrapping)
         cot_bolding_result = extract_character_bolding_answer(raw_cot_bolding_result)
         cot_bolding_cnt += int(cot_bolding_result==correct_key)
         
-        raw_cot_italicizing_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + italicizing_wrapping * 1)
+        raw_cot_italicizing_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + italicizing_wrapping)
         cot_italicizing_result = extract_character_italicizing_answer(raw_cot_italicizing_result)
         cot_italicizing_cnt += int(cot_italicizing_result==correct_key)
         
-        raw_cot_brackets_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + brackets_wrapping * 1)
+        raw_cot_brackets_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + brackets_wrapping)
         cot_brackets_result = extract_character_brackets_answer(raw_cot_brackets_result)
         cot_brackets_cnt += int(cot_brackets_result==correct_key)
         
-        raw_cot_parenthesis_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + parenthesis_wrapping * 1)
+        raw_cot_parenthesis_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + parenthesis_wrapping)
         cot_parenthesis_result = extract_character_parenthesis_answer(raw_cot_parenthesis_result)
         cot_parenthesis_cnt += int(cot_parenthesis_result==correct_key)
         
-        raw_cot_placeholder_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + placeholder_wrapping * 1)
+        raw_cot_placeholder_result = get_gemma_7b_answer(cot_character_instruct + "\n" + input_data + "\n" + placeholder_wrapping)
         cot_placeholder_result = extract_character_placeholder_answer(raw_cot_placeholder_result)
         cot_placeholder_cnt += int(cot_placeholder_result==correct_key)
         
@@ -160,7 +160,7 @@ print(f"cot_parenthesis_cnt: {cot_parenthesis_cnt/all_cnt}")
 print(f"cot_placeholder_cnt: {cot_placeholder_cnt/all_cnt}") 
 print(f"cot_quoting_cnt: {cot_quoting_cnt/all_cnt}")  
 
-with open("../../output/gemma_7B_it_mcq_bbh_cot_Wrapping_Shot3(1 times instruction).csv", "w") as file:
+with open("../../output/gemma_7B_it_mcq_bbh_cot_Wrapping_Shot3.csv", "w") as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow([
         "topic", "question", "choices_texts", "input_data",

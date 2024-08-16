@@ -9,7 +9,7 @@ import random
 from vllm import LLM, SamplingParams
 import torch
 
-MODEL_SAVE_PATH = '/home/bizon/hai/gemma_7b_save'
+MODEL_SAVE_PATH = 'YOUR MODEL SAVE PATH'
 
 sampling_params = SamplingParams(top_p=1, min_tokens = 1, max_tokens = 1024)
 
@@ -48,7 +48,7 @@ def extract_textual_value_answer(answer, cot=False):
         return answer.strip() if answer else " "
 
 saved_rows = []
-with open("/home/bizon/hai/EvalData/mcq_mmlu_test_27.csv") as file:
+with open("../../../EvalData/mcq_mmlu_test_27.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader) # topic,question,choices_texts,input_data,correct_key,correct_text
     
@@ -106,7 +106,7 @@ print(f"zero_shot_value_cnt: {zero_shot_value_cnt/all_cnt}")
 print(f"cot_character_cnt: {cot_character_cnt/all_cnt}")
 print(f"cot_value_cnt: {cot_text_cnt/all_cnt}")    
 
-with open("../../output/gemma_7b_it_mcq_mmlu_OutputType_Shot1.csv", "w") as file:
+with open("../../output/gemma_7b_it_mcq_mmlu_OutputType.csv", "w") as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow([
         "topic", "question", "choices_texts", "input_data",

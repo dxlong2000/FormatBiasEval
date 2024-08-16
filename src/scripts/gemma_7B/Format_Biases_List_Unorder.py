@@ -14,7 +14,7 @@ import re
 import yaml
 import ast
 
-MODEL_SAVE_PATH = '/home/bizon/hai/gemma_7b_save'
+MODEL_SAVE_PATH = 'YOUR MODEL SAVE PATH'
 
 sampling_params = SamplingParams(temperature=0, top_p=0.95, min_tokens = 10, max_tokens = 2000, repetition_penalty = 1.01)
 
@@ -118,7 +118,7 @@ newline_F1 = 0
 all_cnt = 0
 
 saved_data = []
-with open("/home/bizon/hai/EvalData/list_keyphrases_SemEval2017_200.csv") as file:
+with open("../../../EvalData/list_keyphrases_SemEval2017_200.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):
@@ -185,7 +185,7 @@ print(f"bullet_F1: {bullet_F1/all_cnt}")
 print(f"newline_F1: {newline_F1/all_cnt}")
 
 
-with open("../../output/Gemma_7b_it_semeval2017_zs_Shot5.csv", "w") as file:
+with open("../../output/Gemma_7b_it_semeval2017_zs.csv", "w") as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow(["id", "document", "keyphrases", "zs_python_answer", "zs_special_answer", "zs_bullet_answer", "zs_newline_answer"])
     csvwriter.writerows(saved_data)
@@ -209,7 +209,7 @@ newline_F1 = 0
 all_cnt = 0
 
 saved_data = []
-with open("/home/bizon/hai/EvalData/list_keyphrases_SemEval2017_200.csv") as file:
+with open("../../../EvalData/list_keyphrases_SemEval2017_200.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):
@@ -291,7 +291,7 @@ print(f"special_F1: {special_F1/all_cnt}")
 print(f"bullet_F1: {bullet_F1/all_cnt}")
 print(f"newline_F1: {newline_F1/all_cnt}")
 
-with open("../../output/Gemma_7b_it_semeval2017_cot_Shot5.csv", "w") as file:
+with open("../../output/Gemma_7b_it_semeval2017_cot.csv", "w") as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow(["id", "document", "keyphrases", "cot_python_answer", "cot_special_answer", "cot_bullet_answer", "cot_newline_answer"])
     csvwriter.writerows(saved_data)

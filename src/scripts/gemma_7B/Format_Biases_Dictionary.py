@@ -14,7 +14,7 @@ import re
 import yaml
 import ast
 
-MODEL_SAVE_PATH = '/home/bizon/hai/gemma_7b_save'
+MODEL_SAVE_PATH = 'YOUR MODEL SAVE PATH'
 
 sampling_params = SamplingParams(temperature=0.7, top_p=1, min_tokens = 1, max_tokens = 1024)
 
@@ -61,7 +61,6 @@ def compute_f1(list1, list2):
 
     return f1_score
 
-'''
 ######## Easy #######
 
 
@@ -81,7 +80,7 @@ f1_python_task = 0
 f1_yaml_task = 0
 
 all_cnt = 0
-with open("/home/bizon/hai/EvalData/dict_SciREX_easy.csv") as file:
+with open("../../../EvalData/dict_SciREX_easy.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):
@@ -155,7 +154,7 @@ f1_python_task = 0
 f1_yaml_task = 0
 
 all_cnt = 0
-with open("/home/bizon/hai/EvalData/dict_SciREX_easy.csv") as file:
+with open("../../../EvalData/dict_SciREX_easy.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):
@@ -237,7 +236,7 @@ METRIC_CATEGORIES = ["Task", "Method"]
 
 all_cnt = 0
 
-with open("/home/bizon/hai/EvalData/dict_SciREX_medium.csv") as file:
+with open("../../../EvalData/dict_SciREX_medium.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):
@@ -312,7 +311,7 @@ f1_yaml = 0
 METRIC_CATEGORIES = ["Task", "Method"]
 
 all_cnt = 0
-with open("/home/bizon/hai/EvalData/dict_SciREX_medium.csv") as file:
+with open("../../../EvalData/dict_SciREX_medium.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):
@@ -372,7 +371,6 @@ with open("../../output/dictionary_medium_cot.csv", "w") as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow(new_header)
     csvwriter.writerows(all_saved_data)
-'''
 
 ########## Hard ###################
 
@@ -401,7 +399,7 @@ f1_yaml = 0
 METRIC_CATEGORIES = ["Task", "Method", "Material", "Metric"]
 
 all_cnt = 0
-with open("/home/bizon/hai/EvalData/dict_SciREX_hard.csv") as file:
+with open("../../../EvalData/dict_SciREX_hard.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):
@@ -475,7 +473,7 @@ f1_yaml = 0
 METRIC_CATEGORIES = ["Task", "Method", "Material", "Metric"]
 
 all_cnt = 0
-with open("/home/bizon/hai/EvalData/dict_SciREX_hard.csv") as file:
+with open("../../../EvalData/dict_SciREX_hard.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in tqdm(csvreader):

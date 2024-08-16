@@ -10,7 +10,7 @@ import random
 import re
 import torch
 
-MODEL_SAVE_PATH = '/home/bizon/hai/gemma_7b_save'
+MODEL_SAVE_PATH = 'YOUR MODEL SAVE PATH'
 
 sampling_params = SamplingParams(temperature=0.1, top_p=0.95, min_tokens = 1, max_tokens = 1256)
 
@@ -83,7 +83,7 @@ def extract_text_quoting_answer(input_string):
     
 
 saved_rows = []
-with open("/home/bizon/hai/EvalData/generation_hotpotqa_validation_200.csv") as file:
+with open("../../../EvalData/generation_hotpotqa_validation_200.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader) # question,cot_answer,answer,input_data
     for row in tqdm(csvreader):
@@ -133,7 +133,7 @@ with open("/home/bizon/hai/EvalData/generation_hotpotqa_validation_200.csv") as 
         ])
         saved_rows.append(tmp_row)
 
-with open("../../output/gemma_7b_generation_hotpotqa_zs_Wrapping_Shot2_200.csv", "w") as file:
+with open("../../output/gemma_7b_generation_hotpotqa_zs_Wrapping_200.csv", "w") as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow([
         "id","question","answer","qtype","qlevel","supporting_facts","context","input_data",

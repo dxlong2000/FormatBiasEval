@@ -10,7 +10,7 @@ import random
 import re
 import torch
 
-MODEL_SAVE_PATH = '/home/bizon/hai/gemma_7b_save'
+MODEL_SAVE_PATH = 'YOUR MODEL SAVE PATH'
 
 sampling_params = SamplingParams(temperature=0.1, top_p=0.95, max_tokens = 256)
 
@@ -82,7 +82,7 @@ def extract_character_quoting_answer(input_string):
         return ""
 
 saved_rows = []
-with open("/home/bizon/hai/EvalData/mcq_bbh_test_1.csv") as file:
+with open("../../../EvalData/mcq_bbh_test_1.csv") as file:
     csvreader = csv.reader(file)
     header = next(csvreader) # topic,question,choices_texts,input_data,correct_key,correct_text
     
@@ -160,7 +160,7 @@ print(f"zs_parenthesis_cnt: {zs_parenthesis_cnt/all_cnt}")
 print(f"zs_placeholder_cnt: {zs_placeholder_cnt/all_cnt}") 
 print(f"zs_quoting_cnt: {zs_quoting_cnt/all_cnt}")  
 
-with open("../../output/gemma_7B_it_mcq_bbh_zs_Wrapping_Shot3(1 time instruct).csv", "w") as file:
+with open("../../output/gemma_7B_it_mcq_bbh_zs_Wrapping.csv", "w") as file:
     csvwriter = csv.writer(file)
     csvwriter.writerow([
         "topic", "question", "choices_texts", "input_data",
