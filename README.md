@@ -39,7 +39,43 @@ Then install the required packages:
 pip install -e requirements.txt
 ```
 
-## 2. Running the codes
+## 2. Formats and Models Support
+### Formats
+- Format of MCQ answer (A. Yes, B. No):
+    1. Character identifier (A/B). 
+    2. Text description of the choice (Yes/No).
+
+- Wrapping formats:
+
+    3. Special character (\<ANSWER>, \</ANSWER>).
+    4. Bolding (e.g., The answer is **10**.).
+    5. Italicizing (e.g., The answer is [[10]].).
+    6. Double brackets (e.g., The answer is ((10)).).
+    7. Double parentheses (e.g., The answer is ""10"".).
+    8. Placeholder (e.g., The answer is 10.).
+    9. Quoting (e.g., The answer is """10""".).
+
+- List format:
+
+    10. Python list.
+    11. Bullet-point list.
+    12. List of elements separated by a special character ”[SEP]”.
+    13. List of elements arranged on separate lines.
+
+- Mapping format:
+
+    14. JSON/Python dictionary.
+    15. YAML.
+
+### Models
+- ChatGPT: 
+    - gpt-3.5-turbo-0125
+- Mistral:
+    - mistralai/Mistral-7B-Instruct-v0.2
+- Gemma:
+    - google/gemma-7b-it
+
+## 3. Running the codes
 - The codes for models and prompting baselines are in ```/FormatBiasToPublish/FormatEval/src``` where each model and a prompting method has a separate Python file. 
 
 - Simply running: ```CUDA_VISIBLE_DEVICES=x, python ....py``` should work. Metrics' computations are also integrated in them.
