@@ -1,4 +1,4 @@
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2208.15001-b31b1b.svg)](https://arxiv.org/abs/2403.16685) -->
+[![arXiv](https://img.shields.io/badge/arXiv-2408.08656-b31b1b.svg)](https://www.arxiv.org/abs/2408.08656)
 
 
 <div align="center">
@@ -27,6 +27,9 @@ Systematically Evaluating and Mitigating Output Format Bias of LLMs</h1>
 <img src="figures/formatEval.png" width="70%"/>
 
 </div>
+
+## Abstract
+We present the first systematic evaluation examining format bias in performance of large language models (LLMs). Our approach distinguishes between two categories of an evaluation metric under format constraints to reliably and accurately assess performance: one measures performance when format constraints are adhered to, while the other evaluates performance regardless of constraint adherence. We then define a metric for measuring the format bias of LLMs and establish effective strategies to reduce it. Subsequently, we present our empirical format bias evaluation spanning four commonly used categories -- multiple-choice question-answer, wrapping, list, and mapping -- covering 15 widely-used formats. Our evaluation on eight generation tasks uncovers significant format bias across state-of-the-art LLMs. We further discover that improving the format-instruction following capabilities of LLMs across formats potentially reduces format bias. Based on our evaluation findings, we study prompting and fine-tuning with synthesized format data techniques to mitigate format bias. Our methods successfully reduce the variance in ChatGPT's performance among wrapping formats from 235.33 to 0.71 (%$^2$)
 
 ## 1. Installation
 Using conda environment is recommended:
