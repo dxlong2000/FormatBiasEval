@@ -78,6 +78,8 @@ pip install -e requirements.txt
 - Gemma:
     - google/gemma-7b-it
 
+*More models are coming!*
+
 ## 3. Running the codes
 - The codes for models and prompting baselines are in ```/FormatBiasToPublish/FormatEval/src``` where each model and a prompting method has a separate Python file. 
 
