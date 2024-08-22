@@ -90,3 +90,11 @@ pip install -e requirements.txt
 - If you have any question or found any bugs, please email directly to **Do Xuan Long** via email: ```xuanlong.do@u.nus.edu```.
 
 - If you found our work helpful, please cite it:
+```
+@article{long2024llms,
+  title={LLMs Are Biased Towards Output Formats! Systematically Evaluating and Mitigating Output Format Bias of LLMs},
+  author={Long, Do Xuan and Ngoc, Hai Nguyen and Sim, Tiviatis and Dao, Hieu and Joty, Shafiq and Kawaguchi, Kenji and Chen, Nancy F and Kan, Min-Yen},
+  journal={arXiv preprint arXiv:2408.08656},
+  year={2024}
+}
+```
