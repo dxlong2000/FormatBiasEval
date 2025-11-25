@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<h1>LLMs Are Biased Towards Output Formats!
+<h1>[NAACL 2025] LLMs Are Biased Towards Output Formats!
 Systematically Evaluating and Mitigating Output Format Bias of LLMs</h1>
 <div>
     <a href='https://dxlong2000.github.io/' target='_blank'>Do Xuan Long</a><sup>1,2</sup>&emsp;
